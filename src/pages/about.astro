@@ -1,0 +1,38 @@
+---
+import Base from "@/layouts/Base.astro";
+import AboutCompanies from "@/partials/AboutCompanies.astro";
+import Accomplishments from "@/partials/Accomplishments.astro";
+import CallToAction from "@/partials/CallToAction.astro";
+import IntegrationToolsSection from "@/partials/IntegrationToolsSection.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import TeamGallery from "@/partials/TeamGallery.astro";
+import TeamTestimonials from "@/partials/TeamTestimonials.astro";
+import VisionAndMission from "@/partials/VisionAndMission.astro";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+const {
+  title,
+  meta_title,
+  description,
+  hero,
+  gallery,
+  accomplishments,
+  visionMission,
+  companies,
+  teamTestimonials,
+} = ((await getEntry("about", "-index")) as CollectionEntry<"about">).data;
+---
+
+<Base title={title} meta_title={meta_title} description={description}>
+  <section class="ph-spacing">
+    <PageHeader title={hero.title} description={hero.subtitle} />
+  </section>
+  <TeamGallery gallery={gallery} />
+  <Accomplishments accomplishments={accomplishments} />
+  <VisionAndMission visionMission={visionMission} />
+  <AboutCompanies companies={companies} />
+  <TeamTestimonials testimonials={teamTestimonials} />
+  <IntegrationToolsSection hasBgColor={false} />
+  <CallToAction hasBackground={true} />
+</Base>

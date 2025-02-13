@@ -1,0 +1,35 @@
+---
+import ChangelogCard from "@/components/ChangelogCard.astro";
+import Base from "@/layouts/Base.astro";
+import CallToAction from "@/partials/CallToAction.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+const { title, description, meta_title, pageHeader, changelogs } = (
+  (await getEntry("changelog", "-index")) as CollectionEntry<"changelog">
+).data;
+---
+
+<Base title={title} meta_title={meta_title} description={description}>
+  <div class="ph-spacing mb-24">
+    <PageHeader title={pageHeader.title} description={pageHeader.subtitle} />
+  </div>
+  <section class="section">
+    <div class="container lg:max-w-[920px]">
+      <div class="space-y-4">
+        {
+          changelogs.map((changelog, index) => {
+            const aosDelay = index * 100;
+            return (
+              <div data-aos="fade-up-sm" data-aos-delay={aosDelay}>
+                <ChangelogCard changelog={changelog} />
+              </div>
+            );
+          })
+        }
+      </div>
+    </div>
+  </section>
+  <CallToAction hasBackground={true} />
+</Base>

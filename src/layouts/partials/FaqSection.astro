@@ -1,0 +1,34 @@
+---
+import { markdownify } from "@/lib/utils/textConverter";
+import Accordion from "@/shortcodes/Accordion";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+const { isCentered } = Astro.props;
+const faq = (
+  (await getEntry("faqSection", "faq")) as CollectionEntry<"faqSection">
+).data;
+---
+
+<section class="section" id="faq_section">
+  <div class="container">
+    <div class="flex flex-col gap-8 md:gap-16">
+      <h2
+        set:html={markdownify(faq.title)}
+        class:list={[
+          "lg:col-6",
+          { "mx-auto lg:col-8 text-center": isCentered },
+        ]}
+      />
+      <div class="lg:columns-2">
+        {
+          faq.list.map((item) => (
+            <Accordion className="!mb-4" client:load title={item.question}>
+              <div set:html={markdownify(item.answer)} />
+            </Accordion>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

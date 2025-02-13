@@ -1,0 +1,41 @@
+{
+  "site": {
+    "title": "Loyva",
+    "base_url": "https://loyva.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.svg",
+    "logo_width": "160",
+    "logo_height": "35",
+    "logo_text": "Loyva"
+  },
+
+  "settings": {
+    "search": true,
+    "pagination": 9,
+    "summary_length": 140
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "footer_description": "Start building your insights hub with <br> lightweight analysis.",
+    "copyright": "Copyright © {year} Loyva. All Rights Reserved"
+  },
+
+  "newsletter": {
+    "form_action": "#"
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "https://metawebuniverse.com"
+  },
+
+  "metadata": {
+    "meta_author": "Hasnain-Ahmed",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Saas & Startup Template"
+  }
+}
