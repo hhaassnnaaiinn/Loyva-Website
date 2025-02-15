@@ -10,7 +10,7 @@ type Props = {
 
 const banner = Astro.props.banner;
 
-const { bannerImages, bulletpoints, content, newsletterButton, title } = banner;
+const { bannerImages, content, newsletterButton, title } = banner;
 ---
 
 <section class="section ph-spacing bg-theme-light">
@@ -64,19 +64,19 @@ const { bannerImages, bulletpoints, content, newsletterButton, title } = banner;
           )
         }
 
-        {
+        <!-- {
           bulletpoints && bulletpoints.length > 0 && (
             <ul
               class="green-tick-list text-left flex justify-center flex-col items-center md:flex-row gap-5 md:gap-10"
               data-aos="fade-up-sm"
               data-aos-delay="200"
             >
-              {/* {bulletpoints.map((point) => (
+              {bulletpoints.map((point) => (
                 <li set:html={point} class="text-dark" />
-              ))} */}
+              ))}
             </ul>
           )
-        }
+        } -->
       </div>
       {
         bannerImages && (
@@ -90,7 +90,7 @@ const { bannerImages, bulletpoints, content, newsletterButton, title } = banner;
                 src={bannerImages.left}
                 alt="Banner Image"
                 class=" w-full h-full object-cover rounded-2xl"
-                width={400}
+                width={500}
                 height={400}
               />
             </div>

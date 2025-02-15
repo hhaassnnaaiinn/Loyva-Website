@@ -2,14 +2,34 @@
   "main": [
     {
       "name": "Home",
-      "url": "/",
-      "hasChildren":false,
-      "children":[{
-        
-      }
-
-      ]
+      "url": "/"
     },
+    {
+      "name": "Industries",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Equipment Leasing",
+          "url": "#"
+        },
+        
+        {
+          "name": "Mortgage",
+          "url": "#"
+        },
+        
+        {
+          "name": "Automotive",
+          "url": "#"
+        },
+        
+        {
+          "name": "Security & Alarm",
+          "url": "#"
+        }
+  ]},
+  
     {
       "name": "About",
       "url": "/about"
