@@ -5,11 +5,11 @@ banner:
   content: "The Key To Digital Lending: We empower you to consolidate, organize, secure, and monetize your digital financial assets, streamlining your path to success in the digital lending arena."
   newsletterButton:
     enable: true
-    label: "Get Started Free"
+    label: "Book a Demo"
     formPlaceholder: Enter Your Email
-  bulletpoints:
-    -  No Credit Card Required
-    -  Cancel Anytime
+  # bulletpoints:
+  #   -  No Credit Card Required
+  #   -  Cancel Anytime
   bannerImages:
     left: "/images/homepage/banner-1.png"
     center: "/images/homepage/banner-2.png"
@@ -32,13 +32,13 @@ workforceEfficiency:
     - title: "E-Sign your digital asset"
       # Place Icons inside src/icons folder and mention filename without extension
       icon: "messageStar"   
-      content: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences, personalized  solutions."
+      content: "Seamlessly execute secure, compliant e-signatures for your most critical digital documents. Our platform simplifies the signing process while ensuring authenticity and legal enforceability every step of the way."
     - title: "Store and Lock digital asset"
       icon: "stars"   
-      content: "We take data security seriously and ensure that your data is protected at all times. Our platform is designed to keep   your data safe."
+      content: "Protect your digital documents with enterprise-grade security and immutable storage. Our eVault safeguards your assets with encryption and tamper-proof technology, giving you complete confidence in your document integrity."
     - title: "Manage your digitial asset"
       icon: "flexibility"   
-      content: "Our platform is designed to be flexible and customizable to meet your unique needs. We offer a range of features and integrations."
+      content: "Gain full control over your document lifecycle with intuitive management tools. Our flexible platform offers robust integrations, audit trails, and automated workflows to streamline operations and ensure compliance."
 
 # Discover Product Feature
 discoverProductFeature:
@@ -47,19 +47,19 @@ discoverProductFeature:
   accordionList: 
     - title:  Digital Vault for Secure Storage
       content: "Keep your financial documents protected in a fully encrypted, tamper-proof vault. Loyva Lock ensures compliance with industry regulations while giving you complete control over your digital assets."
-      image: "/images/portraits/portrait_1.png"
+      image: "/images/features/portrait_1.png"
     - title: Effortless eSigning & Verification
       content: "Close deals faster with seamless digital signatures. Our legally binding eSigning technology streamlines approvals while maintaining top-tier security and compliance."
-      image: "/images/portraits/portrait_2.png"
+      image: "/images/features/portrait_2.png"
     - title: Intelligent Asset Collateralization
       content: "Unlock liquidity by securely collateralizing and managing your digital assets. Loyva Lock simplifies asset tracking, ownership verification, and seamless transactions."
-      image: "/images/portraits/portrait_3.png"
+      image: "/images/features/portrait_3.png"
     - title: Compliance-First, Risk-Free Transactions
       content: "Stay ahead of regulations with automated audit trails and built-in compliance features. Every transaction is securely recorded, ensuring transparency and trust."
-      image: "/images/portraits/portrait_4.png"
+      image: "/images/features/portrait_4.png"
     - title: Powerful Reporting & Insights
       content: "Gain full visibility with real-time reporting on document status, ownership, and transaction history. Loyva provides deep insights to optimize your digital lending strategy."
-      image: "/images/portraits/portrait_4.png"
+      image: "/images/features/portrait_5.png"
 # Services With CTA
 servicesWithCTA:
   leftCard:

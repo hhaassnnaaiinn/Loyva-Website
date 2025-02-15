@@ -15,7 +15,7 @@ export const homepage = defineCollection({
         label: z.string(),
         formPlaceholder: z.string(),
       }),
-      bulletpoints: z.array(z.string()),
+      // bulletpoints: z.array(z.string()),
       bannerImages: z.object({
         left: z.string(),
         center: z.string(),
