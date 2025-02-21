@@ -29,8 +29,8 @@
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://metawebuniverse.com"
+    "label": "Book a Demo",
+    "link": "/"
   },
 
   "metadata": {

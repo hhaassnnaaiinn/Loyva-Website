@@ -205,6 +205,7 @@ export const about = defineCollection({
   }),
 });
 
+
 export const blog = defineCollection({
   loader: glob({
     pattern: "**/*.{md,mdx}",
