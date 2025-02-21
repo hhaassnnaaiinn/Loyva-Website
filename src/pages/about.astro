@@ -5,7 +5,8 @@ import Accomplishments from "@/partials/Accomplishments.astro";
 import CallToAction from "@/partials/CallToAction.astro";
 import IntegrationToolsSection from "@/partials/IntegrationToolsSection.astro";
 import PageHeader from "@/partials/PageHeader.astro";
-import TeamGallery from "@/partials/TeamGallery.astro";
+// import TeamGallery from "@/partials/TeamGallery.astro";
+import ServicesSection from "@/partials/ServicesSection.astro";
 import TeamTestimonials from "@/partials/TeamTestimonials.astro";
 import VisionAndMission from "@/partials/VisionAndMission.astro";
 import type { CollectionEntry } from "astro:content";
@@ -28,7 +29,8 @@ const {
   <section class="ph-spacing">
     <PageHeader title={hero.title} description={hero.subtitle} />
   </section>
-  <TeamGallery gallery={gallery} />
+  <!-- <TeamGallery gallery={gallery} /> -->
+  <ServicesSection gallery={gallery} />
   <Accomplishments accomplishments={accomplishments} />
   <VisionAndMission visionMission={visionMission} />
   <AboutCompanies companies={companies} />
