@@ -39,9 +39,9 @@ whatWeOffer:
       image: "/images/features/feature-card-3.png"
       subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
 
-services:
-  enable: true
-  # Content for the feature highlights are in sections/services.md
+# services:
+#   enable: true
+#   # Content for the feature highlights are in sections/services.md
 
 integrationTools: 
   enable: true
