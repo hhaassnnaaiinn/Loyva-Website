@@ -1,25 +1,23 @@
 ---
 list:
-    - title: "Secure Transaction Management"
-      subtitle: "Simplify your workforce's time management with our intuitive HR Management SaaS, streamlining."
+    - title: "Why Loyva?"
+      subtitle: "Our name isn’t just a name—it’s a philosophy. Loyva stands for Love, Loyalty, and Value, the core principles that drive everything we do"
       image: "/images/features/feature-service-1.png"
       list:
-        - "Personalized budgets based on income and expenses"
-        - "Real-time tracking of expenses and income"
-        - "Customizable categories for expenses and income"
-    - title: "Budgeting and Forecasting"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
+        - "Love – We prioritize both our customers and employees, fostering a culture of innovation and care."
+        - "Loyalty – We build long-term relationships by earning trust and ensuring customer success."
+        - "Value – We deliver solutions that make an immediate and lasting impact on businesses."
+        - "Vaulting – We specialize in locking and securing authoritative documents, ensuring they remain tamper-proof, compliant, and accessible when you need them."
+    - title: "Our Values"
+      subtitle: "At Loyva, our mission is to empower businesses to manage their most important documents with confidence and ease. We do this by staying true to our core values"
       image: "/images/features/feature-service-2.png"
       list:
-        - "Manage budgets, forecast future financial performance"
-        - "Set spending limits for different categories to stay on track."
-        - "Receive alerts when exceeding budget limits."
-    - title: "Customizable Reporting and Analytics Tools"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
-      image: "/images/features/feature-service-3.png"
-      list:
-        - "Personalized budgets based on income and expenses"
-        - "Set spending limits for different categories to stay on track."
-        - "Receive alerts when exceeding budget limits."
+        - "Love – A people-first approach, ensuring the best experience for both customers and employees."
+        - "Loyalty – A commitment to delivering on our promises and supporting our users every step of the way."
+        - "One Customer – Every decision we make is centered around the needs of our users."
+        - "Value – We don’t just build software—we build solutions that drive measurable impact"
+        - "Transparency – Open communication and honesty, both internally and externally, to foster trust."
+          
+   
 
 ---

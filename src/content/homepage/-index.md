@@ -11,9 +11,9 @@ banner:
   #   -  No Credit Card Required
   #   -  Cancel Anytime
   bannerImages:
-    left: "/images/homepage/banner-1.png"
-    center: "/images/homepage/banner-2.png"
-    right: "/images/homepage/banner-3.png"
+    left: "/images/homepage/Banners-01.jpg"
+    center: "/images/homepage/Banners-02.jpg"
+    right: "/images/homepage/Banners-03.jpg"
   trustedBrands:
     title: "Trusted by 5+ million people at companies like"
     list:

@@ -80,50 +80,41 @@ const { bannerImages, content, newsletterButton, title } = banner;
       </div>
       {
         bannerImages && (
-          <div class="w-full grid grid-cols-12 gap-5">
-            <div
-              data-aos="fade-up-sm"
-              data-aos-delay="200"
-              class="col-span-5 w-full h-full"
-            >
+          <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div data-aos="fade-up-sm" data-aos-delay="200" class="w-full h-full">
               <ImageMod
                 src={bannerImages.left}
                 alt="Banner Image"
-                class=" w-full h-full object-cover rounded-2xl"
-                width={500}
-                height={400}
+                class="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover rounded-2xl"
+                width={400}
+                height={600}
               />
             </div>
-
-            <div
-              class="col-span-3 w-full h-full"
-              data-aos="fade-up-sm"
-              data-aos-delay="350"
-            >
+      
+            <div data-aos="fade-up-sm" data-aos-delay="350" class="w-full h-full">
               <ImageMod
                 src={bannerImages.center}
                 alt="Banner Image"
-                class="w-full h-full object-cover rounded-2xl"
-                width={300}
-                height={400}
+                class="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover rounded-2xl"
+                width={400}
+                height={600}
               />
             </div>
-            <div
-              class="col-span-4 w-full h-full"
-              data-aos="fade-up-sm"
-              data-aos-delay="500"
-            >
+      
+            <div data-aos="fade-up-sm" data-aos-delay="500" class="w-full h-full">
               <ImageMod
                 src={bannerImages.right}
                 alt="Banner Image"
-                class=" w-full h-full object-cover rounded-2xl"
+                class="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover rounded-2xl"
                 width={400}
-                height={400}
+                height={600}
               />
             </div>
           </div>
         )
-      }
+         }
+      
+      
       <TrustedBrands />
     </div>
   </div>
