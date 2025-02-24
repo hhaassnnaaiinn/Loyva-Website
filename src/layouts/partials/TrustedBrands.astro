@@ -26,7 +26,7 @@ const trustedBrands = (
     data-aos-delay="100"
   >
     {
-      trustedBrands.list.map((brand) => (
+      trustedBrands.list.slice(0, 4).map((brand) => (
         <li class="inline-block">
           <ImageMod
             src={brand}
