@@ -39,7 +39,7 @@ export interface NavigationLink {
         {
           menu.main.map((item) => (
             <li
-              id={item.hasChildren ? "home" : null}
+              id={item.hasChildren ? "industries" : null}
               class={`nav-item ${item.hasChildren ? "nav-dropdown group relative" : ""}`}
             >
               {item.hasChildren ? (
@@ -59,12 +59,16 @@ export interface NavigationLink {
               )}
               {item.hasChildren && (
                 <ul
-                  class="hidden border border-border/10 lg:border-none mt-2 lg:mt-0 bg-dark p-8 mb-2 lg:mb-0 lg:transition-[opacity_transform] lg:duration-500 lg:absolute lg:right-0 lg:invisible lg:group-hover:visible lg:opacity-0 lg:group-hover:opacity-100 lg:scale-95 lg:group-hover:scale-100 lg:group-hover:grid lg:grid lg:grid-cols-3 lg:gap-x-8 min-w-max nav-dropdown-list"
-                  id={item.hasChildren ? "all-pages-dropdown" : null}
-                >
+  class="hidden border border-border/10 lg:border-none mt-2 lg:mt-0 bg-dark p-4 lg:p-2 mb-2 lg:mb-0 
+         lg:transition-[opacity_transform] lg:duration-500 lg:absolute lg:right-0 lg:invisible 
+         lg:group-hover:visible lg:opacity-0 lg:group-hover:opacity-100 lg:scale-95 
+         lg:group-hover:scale-100 lg:group-hover:block lg:block min-w-max nav-dropdown-list"
+  id="industries-dropdown"
+>
+
                   {item.children.map((child: any) => (
-                    <li class="nav-dropdown-item">
-                      <a href={child.url} class="nav-dropdown-link">
+                    <li class="nav-dropdown-item py-2">
+                      <a href={child.url} class="nav-dropdown-link block px-4 py-2 hover:bg-gray-700 rounded">
                         {child.name}
                       </a>
                     </li>
@@ -106,22 +110,27 @@ export interface NavigationLink {
 </header>
 <script>
   const headerHamburgerInit = () => {
-    const allPages = document.getElementById("all-pages");
-    const hamToggle = document.getElementById("nav-toggle");
-    const hamBtn = document.querySelector(".ham-btn");
-    if (hamToggle && hamBtn) {
-      hamToggle.addEventListener("change", () => {
-        hamBtn.classList.toggle("active");
-      });
-    }
-    allPages &&
-      allPages.addEventListener("click", () => {
-        const menu = document.getElementById("all-pages-dropdown");
-        menu && menu.classList.toggle("active");
-      });
-  };
+  const industries = document.getElementById("industries");
+  const industriesDropdown = document.getElementById("industries-dropdown");
+  const hamToggle = document.getElementById("nav-toggle");
+  const hamBtn = document.querySelector(".ham-btn");
 
-  document.addEventListener("astro:page-load", () => {
-    headerHamburgerInit();
-  });
+  if (hamToggle && hamBtn) {
+    hamToggle.addEventListener("change", () => {
+      hamBtn.classList.toggle("active");
+    });
+  }
+
+  if (industries && industriesDropdown) {
+    industries.addEventListener("click", (event) => {
+      event.preventDefault(); // Prevent default behavior
+      industriesDropdown.classList.toggle("hidden");
+    });
+  }
+};
+
+document.addEventListener("astro:page-load", () => {
+  headerHamburgerInit();
+});
+
 </script>
