@@ -1,5 +1,5 @@
 ---
-title: "Optimize | Pricing"
+title: "Loyva | Pricing"
 meta_title: ""
 description: "this is meta description"
 draft: false

@@ -29,7 +29,7 @@ const bgImageMod = async (
   // Get the image data for the specified source path
   const image = await getImagePath(src);
 
-  // Optimize the image for development
+  // Loyva the image for development
   const ImageMod = await getImage({
     src: image.default,
     format: format,

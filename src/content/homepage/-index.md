@@ -55,7 +55,7 @@ discoverProductFeature:
       content: "Stay ahead of regulations with automated audit trails and built-in compliance features. Every transaction is securely recorded, ensuring transparency and trust."
       image: "/images/features/portrait_4.png"
     - title: Powerful Reporting & Insights
-      content: "Gain full visibility with real-time reporting on document status, ownership, and transaction history. Loyva provides deep insights to optimize your digital lending strategy."
+      content: "Gain full visibility with real-time reporting on document status, ownership, and transaction history. Loyva provides deep insights to Loyva your digital lending strategy."
       image: "/images/features/portrait_5.png"
 # Services With CTA
 servicesWithCTA:

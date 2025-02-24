@@ -82,7 +82,7 @@ teamTestimonials:
       position: "Software Engineer"
       company: "/images/company/trello.svg"
       profileImage: "/images/about/testimonial-1.png"
-      description: "I have been working at Optimize for over 2 years now. The team is very supportive."
+      description: "I have been working at Loyva for over 2 years now. The team is very supportive."
       stats: 
         - title: "92k"
           subtitle: "Activity Monitor"
@@ -94,7 +94,7 @@ teamTestimonials:
       position: "Product Manager"
       company: "/images/company/trello.svg"
       profileImage: "/images/about/testimonial-2.png"
-      description: "I have been working at Optimize for over 2 years now.The work environment is great."
+      description: "I have been working at Loyva for over 2 years now.The work environment is great."
       stats: 
         - title: "92k"
           subtitle: "Activity Monitor"

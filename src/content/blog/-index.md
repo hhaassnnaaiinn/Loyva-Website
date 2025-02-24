@@ -1,5 +1,5 @@
 ---
-title: "Optimize | Blog"
+title: "Loyva | Blog"
 meta_title: ""
 description: "this is meta description"
 

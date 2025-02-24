@@ -1,5 +1,5 @@
 ---
-title: "Optimize | Integration"
+title: "Loyva | Integration"
 meta_title: ""
 description: "this is meta description"
 draft: false

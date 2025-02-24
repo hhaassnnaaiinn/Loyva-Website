@@ -1,4 +1,4 @@
-##### Optimize default expiration time - BEGIN
+##### Loyva default expiration time - BEGIN
 <IfModule mod_expires.c>
   
   ## Enable expiration control
@@ -56,7 +56,7 @@
   ExpiresByType video/x-la-asf "now plus 1 month"
   ExpiresByType video/x-ms-asf "now plus 1 month"
 </IfModule>
-##### Optimize default expiration time - END
+##### Loyva default expiration time - END
 
 ##### 1 Month for most static resources
 <filesMatch ".(css|jpg|jpeg|png|webp|gif|js|ico|woff|woff2|eot|ttf)$">

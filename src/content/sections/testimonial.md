@@ -12,5 +12,5 @@ testimonials:
     designation: "Co-Founder, Lumessa"
     avatar: "/images/avatar/2.png"
     companyLogo: "/images/company/novadex.png"
-    content: "Optimize is super easy to edit. We've built the website and launched it in the fastest time we ever could!"
+    content: "Loyva is super easy to edit. We've built the website and launched it in the fastest time we ever could!"
 ---
