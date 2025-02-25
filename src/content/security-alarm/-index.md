@@ -50,14 +50,14 @@ Join the digital transformation in equipment leasing with Loyva and experience t
 asset management today."
 
 # services:
-#   enable: true
+  enable: false
 #   # Content for the feature highlights are in sections/services.md
 
 integrationTools: 
-  enable: true
+  enable: false
   # Content for the integration tools are in sections/integration-tools.md
 faq:
-  enable: true
+  enable: false
   # Content for the FAQ are in sections/faq.md
 
 ---

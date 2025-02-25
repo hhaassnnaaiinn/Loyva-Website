@@ -38,7 +38,7 @@ whatWeOffer:
     - title: "Content Analytics"
       image: "/images/features/feature-card-3.png"
       subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
-      
+
 why:
   enable: true
   title: "Why choose Loyva?"
@@ -50,14 +50,14 @@ Join the digital transformation in equipment leasing with Loyva and experience t
 asset management today."
 
 # services:
-#   enable: true
-#   # Content for the feature highlights are in sections/services.md
+  enable: false
+  # Content for the feature highlights are in sections/services.md
 
 integrationTools: 
-  enable: true
+  enable: false
   # Content for the integration tools are in sections/integration-tools.md
 faq:
-  enable: true
+  enable: false
   # Content for the FAQ are in sections/faq.md
 
 ---
