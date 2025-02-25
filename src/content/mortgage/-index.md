@@ -38,6 +38,7 @@ whatWeOffer:
     - title: "Content Analytics"
       image: "/images/features/feature-card-3.png"
       subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
+      
 why:
   enable: true
   title: "Why choose Loyva?"

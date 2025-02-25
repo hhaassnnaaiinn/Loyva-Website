@@ -39,6 +39,16 @@ whatWeOffer:
       image: "/images/features/feature-card-3.png"
       subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
 
+why:
+  enable: true
+  title: "Why choose Loyva?"
+  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital 
+solutions that enhance efficiency, security, and compliance. Our eVault technology is 
+purpose-built to meet the unique needs of the equipment finance industry, providing a robust 
+platform for managing digital assets with confidence. 
+Join the digital transformation in equipment leasing with Loyva and experience the future of 
+asset management today."
+
 # services:
 #   enable: true
 #   # Content for the feature highlights are in sections/services.md
