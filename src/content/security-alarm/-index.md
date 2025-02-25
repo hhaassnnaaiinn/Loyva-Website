@@ -49,9 +49,9 @@ platform for managing digital assets with confidence.
 Join the digital transformation in equipment leasing with Loyva and experience the future of 
 asset management today."
 
-# services:
+services:
   enable: false
-#   # Content for the feature highlights are in sections/services.md
+  # Content for the feature highlights are in sections/services.md
 
 integrationTools: 
   enable: false
