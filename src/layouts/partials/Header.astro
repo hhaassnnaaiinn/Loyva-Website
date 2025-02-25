@@ -123,10 +123,13 @@ export interface NavigationLink {
 
   if (industries && industriesDropdown) {
     industries.addEventListener("click", (event) => {
-      event.preventDefault(); // Prevent default behavior
-      industriesDropdown.classList.toggle("hidden");
-    });
-  }
+      const target = event.target as HTMLElement; // 🔥 Type assertion fix
+      if (!target.closest("a")) {
+        event.preventDefault();
+        industriesDropdown.classList.toggle("hidden");
+      }
+  });
+}
 };
 
 document.addEventListener("astro:page-load", () => {

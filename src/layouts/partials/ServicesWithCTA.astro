@@ -54,7 +54,7 @@ const { leftCard, rightCard, cta } = servicesWithCTA;
           <div
             class="bg-secondary text-dark p-7 rounded-3xl"
             data-aos="fade-up-sm"
-            data-aos-delay="200"
+            data-aos-delay="100"
           >
             <div class="space-y-3">
               <div class="flex items-center gap-3 ">
@@ -68,48 +68,14 @@ const { leftCard, rightCard, cta } = servicesWithCTA;
               />
             </div>
             <div class="mt-12">
-              <div class="flex items-center gap-3">
-                {typeof rightCard.images !== "string" && (
-                  <>
-                    <div data-aos="zoom-in-sm" data-aos-delay="50">
-                      <ImageMod
-                        width={270}
-                        height={387}
-                        src={rightCard.images.left}
-                        alt={rightCard.title}
-                        class="w-full h-full object-cover rounded-2xl"
-                      />
-                    </div>
-                    <div class="flex flex-col gap-3">
-                      <div
-                        data-aos="zoom-in-sm"
-                        data-aos-delay="100"
-                        class="size-full"
-                      >
-                        <ImageMod
-                          width={262}
-                          height={226}
-                          src={rightCard.images.top}
-                          alt={rightCard.title}
-                          class="w-full h-full object-cover rounded-2xl"
-                        />
-                      </div>
-                      <div
-                        data-aos="zoom-in-sm"
-                        data-aos-delay="150"
-                        class="size-full"
-                      >
-                        <ImageMod
-                          width={262}
-                          height={113}
-                          src={rightCard.images.bottom}
-                          alt={rightCard.title}
-                          class="w-full h-full object-cover rounded-2xl"
-                        />
-                      </div>
-                    </div>
-                  </>
-                )}
+              <div data-aos="zoom-in-sm" data-aos-delay="50">
+                <ImageMod
+                  src={rightCard.images}
+                  width={544}
+                  height={376}
+                  alt={rightCard.title}
+                  class="rounded-2xl"
+                />
               </div>
             </div>
           </div>

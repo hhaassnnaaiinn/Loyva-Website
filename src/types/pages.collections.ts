@@ -60,11 +60,7 @@ export const homepage = defineCollection({
         icon: z.string(),
         title: z.string(),
         subtitle: z.string(),
-        images: z.object({
-          left: z.string(),
-          top: z.string(),
-          bottom: z.string(),
-        }),
+        images: z.string(),
       }),
       cta: z.object({
         enable: z.boolean(),
@@ -342,6 +338,263 @@ export const features = defineCollection({
           subtitle: z.string(),
         })
       ),
+    }),
+    services: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    integrationTools: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    faq: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+  }),
+});
+
+export const equipmentLeasing = defineCollection({
+  loader: glob({
+    pattern: "**/-*.{md,mdx}",
+    base: "src/content/equipment-leasing",
+  }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string(),
+    draft: z.boolean(),
+    pageHeader: z.object({
+      title: z.string(),
+      subtitle: z.string(),
+    }),
+    hero: z.object({
+      leftImageContainer: z.object({
+        leftImage: z.string(),
+        rightImage: z.string(),
+      }),
+      rightImageContainer: z.object({
+        leftImageLg: z.string(),
+        rightTopImageSm: z.string(),
+        rightBottomImageMd: z.string(),
+      }),
+      featureList: z.array(
+        z.object({
+          title: z.string(),
+          description: z.string(),
+        })
+      ),
+    }),
+    whatWeOffer: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      list: z.array(
+        z.object({
+          title: z.string(),
+          image: z.string(),
+          subtitle: z.string(),
+        })
+      ),
+    }),
+    why: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      description: z.string(),
+    }),
+    services: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    integrationTools: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    faq: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+  }),
+});
+export const mortgage = defineCollection({
+  loader: glob({
+    pattern: "**/-*.{md,mdx}",
+    base: "src/content/mortgage",
+  }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string(),
+    draft: z.boolean(),
+    pageHeader: z.object({
+      title: z.string(),
+      subtitle: z.string(),
+    }),
+    hero: z.object({
+      leftImageContainer: z.object({
+        leftImage: z.string(),
+        rightImage: z.string(),
+      }),
+      rightImageContainer: z.object({
+        leftImageLg: z.string(),
+        rightTopImageSm: z.string(),
+        rightBottomImageMd: z.string(),
+      }),
+      featureList: z.array(
+        z.object({
+          title: z.string(),
+          description: z.string(),
+        })
+      ),
+    }),
+    whatWeOffer: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      list: z.array(
+        z.object({
+          title: z.string(),
+          image: z.string(),
+          subtitle: z.string(),
+        })
+      ),
+    }),
+    why: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      description: z.string(),
+    }),
+    services: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    integrationTools: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    faq: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+  }),
+});
+export const automotive = defineCollection({
+  loader: glob({
+    pattern: "**/-*.{md,mdx}",
+    base: "src/content/automotive",
+  }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string(),
+    draft: z.boolean(),
+    pageHeader: z.object({
+      title: z.string(),
+      subtitle: z.string(),
+    }),
+    hero: z.object({
+      leftImageContainer: z.object({
+        leftImage: z.string(),
+        rightImage: z.string(),
+      }),
+      rightImageContainer: z.object({
+        leftImageLg: z.string(),
+        rightTopImageSm: z.string(),
+        rightBottomImageMd: z.string(),
+      }),
+      featureList: z.array(
+        z.object({
+          title: z.string(),
+          description: z.string(),
+        })
+      ),
+    }),
+    whatWeOffer: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      list: z.array(
+        z.object({
+          title: z.string(),
+          image: z.string(),
+          subtitle: z.string(),
+        })
+      ),
+    }),
+    why: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      description: z.string(),
+    }),
+    services: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    integrationTools: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    faq: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+  }),
+});
+export const securityAlarm = defineCollection({
+  loader: glob({
+    pattern: "**/-*.{md,mdx}",
+    base: "src/content/security-alarm",
+  }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string(),
+    draft: z.boolean(),
+    pageHeader: z.object({
+      title: z.string(),
+      subtitle: z.string(),
+    }),
+    hero: z.object({
+      leftImageContainer: z.object({
+        leftImage: z.string(),
+        rightImage: z.string(),
+      }),
+      rightImageContainer: z.object({
+        leftImageLg: z.string(),
+        rightTopImageSm: z.string(),
+        rightBottomImageMd: z.string(),
+      }),
+      featureList: z.array(
+        z.object({
+          title: z.string(),
+          description: z.string(),
+        })
+      ),
+    }),
+    whatWeOffer: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      list: z.array(
+        z.object({
+          title: z.string(),
+          image: z.string(),
+          subtitle: z.string(),
+        })
+      ),
+    }),
+    why: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      description: z.string(),
     }),
     services: z
       .object({

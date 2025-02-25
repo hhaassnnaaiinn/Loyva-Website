@@ -11,22 +11,22 @@
       "children": [
         {
           "name": "Equipment Leasing",
-          "url": "/"
+          "url": "/equipment-leasing"
         },
         
         {
           "name": "Mortgage",
-          "url": "/"
+          "url": "/mortgage"
         },
         
         {
           "name": "Automotive",
-          "url": "/"
+          "url": "/automotive"
         },
         
         {
           "name": "Security & Alarm",
-          "url": "/"
+          "url": "/security-and-alarm"
         }
   ]
 },

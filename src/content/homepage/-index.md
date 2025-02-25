@@ -64,16 +64,14 @@ servicesWithCTA:
     icon: "stars"
     title: "Auto Industry Embraces Digital Transformation"
     subtitle: "Over the last 4 years the automotive industry has had a 131% Growth in eContracting. Let Loyva help you take the next step."
-    images: "/images/services/left-card.png"
+    images: "/images/services/AutoImage.jpg"
   rightCard:
     head: "Digital Leasing Solutions"
     icon: "stars"
     title: "Equipment Leasing Embraces Digital Shift"
-    subtitle: "The equipment leasing sector has seen a 31% rise in the adoption of digital contracting over the past four years, streamlining operations and enhancing efficiency."
-    images:
-      left: "/images/services/right-card-1.png"
-      top: "/images/services/right-card-2.png"
-      bottom: "/images/services/right-card-3.png"
+    subtitle: "The equipment leasing sector has seen a 31% rise in the adoption of digital contracting over the past four years, streamlining operations."
+    images: "/images/services/craneImage.jpg"
+  #end
   cta:
     enable: true
     head: "Analytics and Reporting"

@@ -9,7 +9,13 @@ import {
   integrations,
   pages,
   pricing,
+  equipmentLeasing, // ✅ Import the missing collection
+  mortgage, 
+  automotive, 
+  securityAlarm, 
+
 } from "./types/pages.collections";
+
 import {
   bookDemoSection,
   countriesServedSection,
@@ -35,6 +41,10 @@ export const collections = {
   integrations,
   pages,
   pricing,
+  equipmentLeasing, // ✅ Add the missing collection
+  mortgage, 
+  automotive, 
+  securityAlarm, 
 
   // Sections
   bookDemoSection,
@@ -47,3 +57,4 @@ export const collections = {
   testimonialSection,
   trustedBrandsSection,
 };
+
