@@ -1,5 +1,5 @@
 import {
-  about,
+  company,
   blog,
   bookDemo,
   changelog,
@@ -32,7 +32,7 @@ import {
 export const collections = {
   // Pages
   homepage,
-  about,
+  company,
   blog,
   bookDemo,
   changelog,

@@ -1,5 +1,5 @@
 ---
-title: Connects to the tools you already use
+title: Work with the best technology stack you already use
 button:
   enable: true
   label: "Integration All"

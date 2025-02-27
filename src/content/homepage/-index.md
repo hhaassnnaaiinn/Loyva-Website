@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Your Trusted Partner in Digitizing Financial Assets"
-  content: "The Key To Digital Lending: We empower you to consolidate, organize, secure, and monetize your digital financial Assets, streamlining your path to success in the digital lending arena."
+  content: "Loyva enables you to consolidate, organize, secure, and monetize your digital financial assets—streamlining your journey to success in the digital lending space"
   newsletterButton:
     enable: true
     label: "Book a Demo"

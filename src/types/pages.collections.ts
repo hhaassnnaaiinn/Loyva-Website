@@ -84,10 +84,10 @@ export const homepage = defineCollection({
   }),
 });
 
-export const about = defineCollection({
+export const company = defineCollection({
   loader: glob({
     pattern: "**/-*.{md,mdx}",
-    base: "src/content/about",
+    base: "src/content/company",
   }),
   schema: z.object({
     title: z.string(),

@@ -4,7 +4,7 @@ import { Icon } from "astro-icon/components";
 import type { CollectionEntry } from "astro:content";
 
 type Props = {
-  testimonials: CollectionEntry<"about">["data"]["teamTestimonials"];
+  testimonials: CollectionEntry<"company">["data"]["teamTestimonials"];
 };
 
 const { testimonials } = Astro.props;
@@ -62,20 +62,20 @@ const { testimonials } = Astro.props;
                           set:html={markdownify(testimonial.description)}
                         />
                         <div class="flex items-center gap-4 mt-8 text-left">
-                          <img
+                          {/* <img
                             width={56}
                             height={56}
                             src={testimonial.profileImage}
                             alt={testimonial.name}
                             class="rounded-full "
-                          />
+                          /> */}
                           <div class="flex flex-col">
                             <p class="text-lg font-medium text-dark/80">
                               {testimonial.name}
                             </p>
-                            <span class="text-xs  text-dark/50">
+                            {/* <span class="text-xs  text-dark/50">
                               {testimonial.position}
-                            </span>
+                            </span> */}
                           </div>
                         </div>
                         <div class="flex gap-5 lg:gap-12 mt-14 xl:mt-20">

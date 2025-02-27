@@ -1,5 +1,5 @@
 ---
-title: "Loyva | About us"
+title: "Loyva | Company"
 meta_title: ""
 description: "this is meta description"
 draft: false
@@ -29,27 +29,27 @@ gallery:
 
 accomplishments:
   enable: true
-  title: "Highlights of Our Accomplishments"
-  subtitle: "Ready to secure your business? Let’s build the future together"
+  title: "Create Impact, Elevate Your Career"
+  subtitle: "Are you ready to shape the future with a team that values your potential?"
   list:
-    - number: "24"
-      prefix: "+"
-      subtitle: "Excellence Award."
     - number: "100"
-      prefix: "+"
-      subtitle: "International Presence."
+      prefix: "%"
+      subtitle: "Remote First"
     - number: "50"
-      prefix: "K"
-      subtitle: "User’s Retention."
+      prefix: "%"
+      subtitle: "Minority Owned"
+    - number: "1000"
+      prefix: "+"
+      subtitle: "Trees Planted 🌲"
 
 visionMission:
   enable: true
   mission:
     title: "Our Mission"
     list:
-      - title: "Empowering Businesses with Confidence"
+      - title: "Empowering Businesses with Confidence, Sustainability, and Compliance"
         icon: "flexibility"
-        description: "We enable businesses to manage their most important documents with ease, ensuring a seamless and secure experience."
+        description: "Loyva enables businesses to seamlessly manage their most important documents in a secure, digital-first environment—eliminating paper processes for a more sustainable future. We ensure organizations stay compliant with critical assets while making document management effortless, efficient, and reliable. Our mission is to drive digital transformation, helping businesses operate with confidence, reduce their environmental impact, and safeguard their most valuable information."
   vision:
     title: "Our Vision"
     list:
@@ -75,32 +75,32 @@ companies:
 
 teamTestimonials:
   enable: true
-  title: "Elevate your workforce <br> efficiency"
+  title: "Create Impact, Elevate Your Career"
   arrowIcon: "arrow-right"
   list:
-    - name: "Brooklyn Leans"
+    - name: "Kareem"
       position: "Software Engineer"
-      company: "/images/company/trello.svg"
+      company: "/images/company/loyva.svg"
       profileImage: "/images/about/testimonial-1.png"
-      description: "I have been working at Loyva for over 2 years now. The team is very supportive."
+      description: "Loyva offers an incredible worklife balance, and I especially appreciate our open idea policy, ensuring every idea is heard and valued."
       stats: 
-        - title: "92k"
+        - title: "100%"
+          subtitle: "Remote First"
+        - title: "50%"
           subtitle: "Activity Monitor"
-        - title: "4.5"
-          subtitle: "Activity Monitor"
-        - title: "5"
-          subtitle: "Years of Experience"
-    - name: "Martin Garrix"
+        - title: "1000+"
+          subtitle: "Trees Planted"
+    - name: "Ann Rose"
       position: "Product Manager"
-      company: "/images/company/trello.svg"
+      company: "/images/company/loyva.svg"
       profileImage: "/images/about/testimonial-2.png"
-      description: "I have been working at Loyva for over 2 years now.The work environment is great."
+      description: "As the Social Media Manager, I love bringing our story to life, connecting with our audience, and building a community that believes in the power of Loyalty, Value, and Vaulting."
       stats: 
-        - title: "92k"
+        - title: "100%"
+          subtitle: "Remote First"
+        - title: "50%"
           subtitle: "Activity Monitor"
-        - title: "4.5"
-          subtitle: "Activity Monitor"
-        - title: "5"
-          subtitle: "Years of Experience"
+        - title: "1000+"
+          subtitle: "Trees Planted"
 
 ---
