@@ -9,8 +9,8 @@ button:
   label: "Book a Demo"
 
 rightSection:
-  name: Brooklyn Lean
+  name: LoyalHaus Properties
   designation: "Software Engineer"
-  profileImage: "/images/portraits/portrait_2.png"
-  content: "TalentTrek has been instrumental in helping us build our team from scratch.."
+  profileImage: "/images/portraits/11213.png"
+  content: "Loyva has been instrumental in helping us transform from a paper based to a digital first company"
 ---

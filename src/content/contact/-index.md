@@ -13,7 +13,7 @@ formContent:
       enable: true
       label: "Send a Message"
 imageContent:
-  content: "TalentTrek has been instrumental in helping us build our team from scratch.."
+  content: "Loyva has been instrumental in helping us transform from a paper based to a digital first company"
   name: Brooklyn Lean
   designation: "Software Engineer"
   image: "/images/portraits/portrait_2.png"
