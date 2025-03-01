@@ -6,27 +6,10 @@ draft: false
 
 hero:
   title: "About Loyva"
-  subtitle: "At Loyva, we believe that running a business should be secure, seamless, and efficient. Founded by four SaaS industry leaders with experience scaling unicorn software companies, we saw a gap in the market—businesses needed a modern, secure way to manage and protect their most authoritative documents. That’s why we built Loyva, a secure document management platform that combines workflow automation, compliance, and usability."
-
-gallery:
-  enable: true
-  topLeftCard:
-    title: "Why Loyva?"
-    icon: "FaFlag"
-    description: "Our name isn’t just a name it’s a philosophy. Loyva stands for Love, Loyalty, and Value, the core principles that drive everything we do:"
-  topCenterImage: "/images/about/story-1.png"
-  topRightImage: "/images/about/story-2.png"
-  bottomLeftImage: "/images/about/story-3.png"
-  bottomCenterImage: "/images/about/story-4.png"
-  bottomRightCard:
-    title: "Our Values"
-    description: "•	Love – We prioritize both our customers and employees, fostering a culture of innovation and care. <br>
-•	Loyalty – We build long-term relationships by earning trust and ensuring customer success. <br>
-•	Value – We deliver solutions that make an immediate and lasting impact on businesses.<br>
-•	Vaulting – We specialize in locking and securing authoritative documents, ensuring they remain tamper-proof, compliant, and accessible when you need them. 
+  subtitle: "At Loyva, we believe businesses deserve a secure, seamless, and intelligent way to manage their financial assets. Founded by a team of SaaS veterans who have helped scale unicorn companies, we saw a critical gap—organizations lacked a modern, compliant, and automated solution to protect and manage their most valuable assets. <br><br>
+  That’s why we built Loyva. Our secure platform combines cutting-edge workflow automation, compliance-first architecture, and an intuitive experience designed for modern businesses. Whether you're streamlining operations, ensuring regulatory compliance, or securing high-value transactions, Loyva empowers you to move faster with confidence. <br><br>
+Our mission is simple: to redefine how businesses safeguard and optimize their financial assets in an increasingly digital world.
 "
-  
-
 accomplishments:
   enable: true
   title: "Create Impact, Elevate Your Career"

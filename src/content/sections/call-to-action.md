@@ -11,5 +11,5 @@ ctaImages:
 button:
   enable: true
   label: Join Waitlist
-  link: "/book-demo"
+  link: "/#"
 ---
