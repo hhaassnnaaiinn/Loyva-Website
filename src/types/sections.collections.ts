@@ -205,6 +205,12 @@ export const trustedBrandsSection = defineCollection({
   }),
   schema: z.object({
     title: z.string(),
-    list: z.array(z.string()),
+    list: z.array(
+      z.object({
+        title: z.string(),
+        link: z.string(), // Remove URL validation for internal link
+      })
+    ),
   }),
 });
+

@@ -14,30 +14,34 @@ banner:
     left: "/images/homepage/Banners-01.jpg"
     center: "/images/homepage/Banners-02.jpg"
     right: "/images/homepage/Banners-03.jpg"
-  trustedBrands:
-    title: "Industries That We Serve"
-    list:
-      - "/images/trustedBrands/1.png"
-      - "/images/trustedBrands/2.png"
-      - "/images/trustedBrands/3.png"
-      - "/images/trustedBrands/4.png"
-# WorkforceEfficiency
-workforceEfficiency:
+
+trustedBrands:
   title: "Industries That We Serve"
   list:
     - title: "Equipment Leasing"
+      link: "/equipment-leasing"
+    - title: "Mortgage"
+      link: "/mortgage"
+    - title: "Automotive"
+      link: "/automotive"
+    - title: "Security & Alarm"
+      link: "/security-and-alarm"
+
+# WorkforceEfficiency
+workforceEfficiency:
+  title: "How Loyva Digital Lending Solution Works
+"
+  list:
+    - title: "E-Sign your digital asset"
       # Place Icons inside src/icons folder and mention filename without extension
       icon: "messageStar"   
-      content: ""
-    - title: "Mortgage"
+      content: "Seamlessly execute secure, compliant e-signatures for your most critical digital documents. Our platform simplifies the signing process while ensuring authenticity and legal enforceability every step of the way."
+    - title: "Store and Lock digital asset"
       icon: "stars"   
-      content: ""
-    - title: "Automotive"
+      content: "Protect your digital documents with enterprise-grade security and immutable storage. Our eVault safeguards your Assets with encryption and tamper-proof technology, giving you complete confidence in your document integrity."
+    - title: "Manage your digitial asset"
       icon: "flexibility"   
-      content: ""
-    - title: "Security & Alarm"
-      icon: "tick"   
-      content: ""
+      content: "Gain full control over your document lifecycle with intuitive management tools. Our flexible platform offers robust integrations, audit trails, and automated workflows to streamline operations and ensure compliance."
 
 # Discover Product Feature
 discoverProductFeature:
@@ -51,7 +55,7 @@ discoverProductFeature:
       content: "Close deals faster with seamless digital signatures. Our legally binding eSigning technology streamlines approvals while maintaining top-tier security and compliance."
       image: "/images/features/portrait_2.png"
     - title: Intelligent Asset Collateralization
-      content: "Unlock liquidity by securely collateralizing and managing your digital Assets. Loyva xsimplifies asset tracking, ownership verification, and seamless transactions."
+      content: "Unlock liquidity by securely collateralizing and managing your digital Assets. Loyva Lock simplifies asset tracking, ownership verification, and seamless transactions."
       image: "/images/features/portrait_3.png"
     - title: Compliance-First, Risk-Free Transactions
       content: "Stay ahead of regulations with automated audit trails and built-in compliance features. Every transaction is securely recorded, ensuring transparency and trust."

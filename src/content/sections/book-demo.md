@@ -3,7 +3,7 @@ head: Connect with Us
 # Place Icons inside src/icons folder and mention filename without extension
 icon: "stars" 
 title: Book A Free Demo
-subtitle: Streamline HR processes and empower your team with our products. Facilitate manage employee data.
+subtitle: Fill the form below to get connected with Loyva representative.
 button:
   enable: true
   label: "Book a Demo"

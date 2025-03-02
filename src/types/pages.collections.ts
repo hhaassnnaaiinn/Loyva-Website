@@ -23,8 +23,11 @@ export const homepage = defineCollection({
       }),
       trustedBrands: z.object({
         title: z.string(),
-        list: z.array(z.string()),
-      }),
+        list: z.array(z.object({
+          title: z.string(),
+          link: z.string(), // Remove URL validation for internal link
+        })),
+      }).optional(),
     }),
     workforceEfficiency: z.object({
       title: z.string(),

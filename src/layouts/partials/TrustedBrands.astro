@@ -1,5 +1,4 @@
 ---
-import ImageMod from "@/components/ImageMod.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
@@ -12,29 +11,24 @@ const trustedBrands = (
 ).data;
 ---
 
-<div>
+<div class="text-center">
   <p
-    class="text-lg mb-10 text-center"
+    class="text-2xl font-semibold text-gray-800 mb-10"
     data-aos="fade-up-sm"
     data-aos-delay="0"
     set:html={markdownify(trustedBrands.title)}
   />
 
-  <ul
-    class="flex flex-wrap justify-center gap-14"
-    data-aos="fade-up-sm"
-    data-aos-delay="100"
-  >
+  <ul class="flex flex-wrap justify-center gap-10" data-aos="fade-up-sm" data-aos-delay="100">
     {
-      trustedBrands.list.slice(0, 4).map((brand) => (
+      trustedBrands.list.map((industry) => (
         <li class="inline-block">
-          <ImageMod
-            src={brand}
-            alt="Trusted Brand"
-            class="h-auto"
-            width={150}
-            height={48}
-          />
+          <a 
+            href={industry.link} 
+            class="text-xl font-bold text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out"
+          >
+            {industry.title}
+          </a>
         </li>
       ))
     }

@@ -8,13 +8,13 @@ formContent:
     head: "Connect with Us"
     icon: "stars"
     title: "Get In Touch"
-    subtitle: "Streamline HR processes and empower your team with our products. Facilitate manage employee data."
+    subtitle: "Fill the form below to get connected with Loyva representative."
     button:
       enable: true
       label: "Send a Message"
 imageContent:
   content: "Loyva has been instrumental in helping us transform from a paper based to a digital first company"
-  name: Brooklyn Lean
+  name: LoyalHaus Properties
   designation: "Software Engineer"
-  image: "/images/portraits/portrait_2.png"
+  image: "/images/portraits/11213.png"
 ---
