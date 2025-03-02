@@ -6,48 +6,44 @@ draft: false
 
 pageHeader:
     title: "Automotive"
-    subtitle: "Streamline HR processes and empower your team with our products. Effortlessly manage employee data, and more."
+    subtitle: "In today’s evolving automotive market, dealerships, lenders, and financial institutions require a seamless, compliant, and secure solution to manage digital financing contracts. Loyva’s eVault technology revolutionizes auto finance workflows by ensuring the creation, storage, and management of digitally enforceable auto loan and lease agreements, while providing end-to-end connectivity between dealers and lenders."
 hero:
-  leftImageContainer:
-      leftImage: "/images/features/hero-left-1.png"
-      rightImage: "/images/features/hero-left-2.png"
-  rightImageContainer:
-      leftImageLg: "/images/features/hero-right-large.png"
-      rightTopImageSm: "/images/features/hero-right-sm-1.png"
-      rightBottomImageMd: "/images/features/hero-right-sm-2.png"
+  leftImage: "/images/features/automotive.png"
+  rightImage: "/images/features/automotive2.png"
   featureList:
-    - title: "Onboarding"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
-    - title: "Content Management"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
-    - title: "Distribution"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
-    - title: "Optimization"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
+    - title: "Seamless Dealer-Lender Connectivity"
+      description: "Instantly connect auto dealers with lenders for faster funding, approval, and loan validation, reducing the time from contract execution to funding. Supports eContracting workflows to minimize funding delays and improve lender confidence."
+
+    - title: "Legally Enforceable Digital Contracts"
+      description: "Fully compliant with UCC Section 9-105, ESIGN, UETA, and state/federal auto finance laws to ensure loan enforceability. Ensures all ancillary documents, such as insurance and vehicle titling, are processed simultaneously, enabling straight-through processing in a single transaction."
+
+    - title: "Tamper-Proof Audit Trails & Enhanced Security"
+      description: "Secure, encrypted eSignatures provide a tamper-proof method of signing loan documents, reducing fraud risks and disputes. Immutable audit trails capture every contract action, ensuring data integrity and transparency."
+
+    - title: "Sell, Assign, and Transfer Loans Faster"
+      description: "Optimize valuation and liquidity by enabling electronic transfers of auto loans within days instead of weeks. Digitized loan portfolios provide greater trust and confidence to investors, facilitating faster securitization and resale. "
 
 whatWeOffer:
   enable: true
-  title: "Elevate your workforce efficiency"
+  title: "Benefits"
   list:
-    - title: "Content Editing"
-      image: "/images/features/feature-card-1.png"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
-    - title: "Content Organization"
-      image: "/images/features/feature-card-2.png"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
-    - title: "Content Analytics"
-      image: "/images/features/feature-card-3.png"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
+    - title: "Accelerated Transactions"
+      image: "/images/features/accelerated-transaction.jpg"
+      subtitle: "Digitize the signing process to reduce sales cycles, enabling quicker access to capital and improved customer satisfaction."
+    - title: "Cost Efficiency"
+      image: "/images/features/Cost-efficiency.jpg"
+      subtitle: "Eliminate the expenses associated with paper-based processes, such as printing, shipping, and storage, leading to significant cost savings."
+    - title: "Enhanced Security"
+      image: "/images/features/Enhanced-security.jpg"
+      subtitle: "Protect sensitive information with advanced encryption and controlled access, reducing the risk of fraud and unauthorized alterations."
+    - title: "Improved Compliance"
+      image: "/images/features/Improved-compliance.jpg"
+      subtitle: "Ensure all digital assets are managed in accordance with industry regulations, minimizing legal risks and enhancing market liquidity"
 
 why:
   enable: true
   title: "Why choose Loyva?"
-  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital 
-solutions that enhance efficiency, security, and compliance. Our eVault technology is 
-purpose-built to meet the unique needs of the equipment finance industry, providing a robust 
-platform for managing digital assets with confidence. 
-Join the digital transformation in equipment leasing with Loyva and experience the future of 
-asset management today."
+  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital solutions that enhance efficiency, security, and compliance. Our eVault technology is purpose-built to meet the unique needs of the equipment finance industry, providing a robust platform for managing digital assets with confidence. Join the digital transformation in equipment leasing with Loyva and experience the future of asset management today."
 
 services:
   enable: false

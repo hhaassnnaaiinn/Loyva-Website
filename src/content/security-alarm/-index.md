@@ -6,48 +6,42 @@ draft: false
 
 pageHeader:
     title: "Security & Alarm"
-    subtitle: "Streamline HR processes and empower your team with our products. Effortlessly manage employee data, and more."
+    subtitle: "Security alarm companies operate in a competitive market where speed, security, and customer trust are critical. Loyva’s eVault and digital asset management platform transforms contract and financing processes, enabling companies to digitize agreements, manage recurring revenue assets, and unlock capital through securitization."
 hero:
-  leftImageContainer:
-      leftImage: "/images/features/hero-left-1.png"
-      rightImage: "/images/features/hero-left-2.png"
-  rightImageContainer:
-      leftImageLg: "/images/features/hero-right-large.png"
-      rightTopImageSm: "/images/features/hero-right-sm-1.png"
-      rightBottomImageMd: "/images/features/hero-right-sm-2.png"
+  leftImage: "/images/features/security-alarm.png"
+  rightImage: "/images/features/security-alarm2.png"
   featureList:
-    - title: "Onboarding"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
-    - title: "Content Management"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
-    - title: "Distribution"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
-    - title: "Optimization"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
+    - title: "Digital Contract Execution"
+      description: "Move away from paper-based agreements with secure, legally enforceable eContracts for new customer installations, monitoring agreements, and financing plans. Integrate with eSign platforms and CRM systems to reduce contract processing time 
+and improve customer experience."
+    - title: "Secure Document and Asset Management"
+      description: "Digitally store and manage alarm contracts, service agreements, financing records, and recurring revenue assets in a tamper-proof eVault. Ensure contracts are traceable, easily retrievable, and fully compliant with state and industry regulations."
+    - title: "Revenue-Backed Asset Securitization"
+      description: "Unlock growth capital by pooling and securitizing recurring monthly revenue contracts (RMR) through trusted digital asset management. Facilitate the sale, assignment, or collateralization of alarm contracts with full audit trails to meet investor requirements."
+    - title: "Audit Trails and Compliance"
+      description: "Maintain real-time, tamper-evident audit trails for every contract and asset, supporting due diligence, lender audits, and investor requirements. Adheres to UCC Section 9-105, ESIGN, and UETA standards to protect digital contract enforceability."
 
 whatWeOffer:
   enable: true
-  title: "Elevate your workforce efficiency"
+  title: "Benefits"
   list:
-    - title: "Content Editing"
-      image: "/images/features/feature-card-1.png"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
-    - title: "Content Organization"
-      image: "/images/features/feature-card-2.png"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
-    - title: "Content Analytics"
-      image: "/images/features/feature-card-3.png"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
+    - title: "Accelerated Transactions"
+      image: "/images/features/accelerated-transaction.jpg"
+      subtitle: "Digitize the signing process to reduce sales cycles, enabling quicker access to capital and improved customer satisfaction."
+    - title: "Cost Efficiency"
+      image: "/images/features/Cost-efficiency.jpg"
+      subtitle: "Eliminate the expenses associated with paper-based processes, such as printing, shipping, and storage, leading to significant cost savings."
+    - title: "Enhanced Security"
+      image: "/images/features/Enhanced-security.jpg"
+      subtitle: "Protect sensitive information with advanced encryption and controlled access, reducing the risk of fraud and unauthorized alterations."
+    - title: "Improved Compliance"
+      image: "/images/features/Improved-compliance.jpg"
+      subtitle: "Ensure all digital assets are managed in accordance with industry regulations, minimizing legal risks and enhancing market liquidity"
 
 why:
   enable: true
   title: "Why choose Loyva?"
-  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital 
-solutions that enhance efficiency, security, and compliance. Our eVault technology is 
-purpose-built to meet the unique needs of the equipment finance industry, providing a robust 
-platform for managing digital assets with confidence. 
-Join the digital transformation in equipment leasing with Loyva and experience the future of 
-asset management today."
+  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital solutions that enhance efficiency, security, and compliance. Our eVault technology is purpose-built to meet the unique needs of the equipment finance industry, providing a robust platform for managing digital assets with confidence. Join the digital transformation in equipment leasing with Loyva and experience the future of asset management today."
 
 services:
   enable: false

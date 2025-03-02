@@ -6,48 +6,45 @@ draft: false
 
 pageHeader:
     title: "Mortgage"
-    subtitle: "Streamline HR processes and empower your team with our products. Effortlessly manage employee data, and more."
+    subtitle: "In the evolving mortgage industry, lenders and financial institutions require efficient, secure, and 
+compliant solutions to manage digital mortgage assets. Loyva offers a state-of-the-art electronic 
+vaulting (eVault) system designed to streamline the creation, storage, and management of 
+electronic mortgage notes (eNotes) and related documents, ensuring legal enforceability and 
+operational efficiency."
 hero:
-  leftImageContainer:
-      leftImage: "/images/features/hero-left-1.png"
-      rightImage: "/images/features/hero-left-2.png"
-  rightImageContainer:
-      leftImageLg: "/images/features/hero-right-large.png"
-      rightTopImageSm: "/images/features/hero-right-sm-1.png"
-      rightBottomImageMd: "/images/features/hero-right-sm-2.png"
+  leftImage: "/images/features/mortgage.png"
+  rightImage: "/images/features/mortgage2.png"
   featureList:
-    - title: "Onboarding"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
-    - title: "Content Management"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
-    - title: "Distribution"
-      description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
+    - title: "Secure eVault"
+      description: " Loyva's eVault enables the trusted creation and management of authentic digital mortgage contracts, ensuring they remain negotiable and transferable throughout their lifecycle."
+    - title: "Compliance Assurance"
+      description: "Our solution adheres to legal frameworks such as UCC Section 9-105, ESIGN, and UETA, providing confidence that your digital mortgage assets meet all regulatory requirements."
+    - title: "Tamper-Proof Audit Trails"
+      description: "Maintain a time-stamped, tamper-evident audit trail that tracks all activities related to your digital mortgage assets, ensuring transparency and security."
     - title: "Optimization"
       description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
 
 whatWeOffer:
   enable: true
-  title: "Elevate your workforce efficiency"
+  title: "Benefits"
   list:
-    - title: "Content Editing"
-      image: "/images/features/feature-card-1.png"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
-    - title: "Content Organization"
-      image: "/images/features/feature-card-2.png"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
-    - title: "Content Analytics"
-      image: "/images/features/feature-card-3.png"
-      subtitle: "Our extensive data security measures ensure that your sensitive information is safeguarded against unauthorized access."
+    - title: "Accelerated Transactions"
+      image: "/images/features/accelerated-transaction.jpg"
+      subtitle: "Digitize the signing process to reduce sales cycles, enabling quicker access to capital and improved customer satisfaction."
+    - title: "Cost Efficiency"
+      image: "/images/features/Cost-efficiency.jpg"
+      subtitle: "Eliminate the expenses associated with paper-based processes, such as printing, shipping, and storage, leading to significant cost savings."
+    - title: "Enhanced Security"
+      image: "/images/features/Enhanced-security.jpg"
+      subtitle: "Protect sensitive information with advanced encryption and controlled access, reducing the risk of fraud and unauthorized alterations."
+    - title: "Improved Compliance"
+      image: "/images/features/Improved-compliance.jpg"
+      subtitle: "Ensure all digital assets are managed in accordance with industry regulations, minimizing legal risks and enhancing market liquidity"
 
 why:
   enable: true
   title: "Why choose Loyva?"
-  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital 
-solutions that enhance efficiency, security, and compliance. Our eVault technology is 
-purpose-built to meet the unique needs of the equipment finance industry, providing a robust 
-platform for managing digital assets with confidence. 
-Join the digital transformation in equipment leasing with Loyva and experience the future of 
-asset management today."
+  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital solutions that enhance efficiency, security, and compliance. Our eVault technology is purpose-built to meet the unique needs of the equipment finance industry, providing a robust platform for managing digital assets with confidence. Join the digital transformation in equipment leasing with Loyva and experience the future of asset management today."
 
 services:
   enable: false

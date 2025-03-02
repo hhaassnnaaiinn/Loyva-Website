@@ -3,7 +3,7 @@ title: Work with the best technology stack you already use
 button:
   enable: true
   label: "Integration All"
-  link: "/integrations"
+  link: "/company"
 list:
   - logo: "/images/about/slack.svg"
   - logo: "/images/about/hubspot.svg"

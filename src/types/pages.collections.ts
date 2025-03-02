@@ -372,15 +372,8 @@ export const equipmentLeasing = defineCollection({
       subtitle: z.string(),
     }),
     hero: z.object({
-      leftImageContainer: z.object({
-        leftImage: z.string(),
-        rightImage: z.string(),
-      }),
-      rightImageContainer: z.object({
-        leftImageLg: z.string(),
-        rightTopImageSm: z.string(),
-        rightBottomImageMd: z.string(),
-      }),
+      leftImage: z.string(),  // ✅ Fixed incorrect nesting
+      rightImage: z.string(), // ✅ Fixed incorrect nesting
       featureList: z.array(
         z.object({
           title: z.string(),
@@ -436,15 +429,8 @@ export const mortgage = defineCollection({
       subtitle: z.string(),
     }),
     hero: z.object({
-      leftImageContainer: z.object({
-        leftImage: z.string(),
-        rightImage: z.string(),
-      }),
-      rightImageContainer: z.object({
-        leftImageLg: z.string(),
-        rightTopImageSm: z.string(),
-        rightBottomImageMd: z.string(),
-      }),
+      leftImage: z.string(),  // ✅ Fixed incorrect nesting
+      rightImage: z.string(), // ✅ Fixed incorrect nesting
       featureList: z.array(
         z.object({
           title: z.string(),
@@ -500,15 +486,8 @@ export const automotive = defineCollection({
       subtitle: z.string(),
     }),
     hero: z.object({
-      leftImageContainer: z.object({
-        leftImage: z.string(),
-        rightImage: z.string(),
-      }),
-      rightImageContainer: z.object({
-        leftImageLg: z.string(),
-        rightTopImageSm: z.string(),
-        rightBottomImageMd: z.string(),
-      }),
+      leftImage: z.string(),  // ✅ Fixed incorrect nesting
+      rightImage: z.string(), // ✅ Fixed incorrect nesting
       featureList: z.array(
         z.object({
           title: z.string(),
@@ -564,15 +543,8 @@ export const securityAlarm = defineCollection({
       subtitle: z.string(),
     }),
     hero: z.object({
-      leftImageContainer: z.object({
-        leftImage: z.string(),
-        rightImage: z.string(),
-      }),
-      rightImageContainer: z.object({
-        leftImageLg: z.string(),
-        rightTopImageSm: z.string(),
-        rightBottomImageMd: z.string(),
-      }),
+      leftImage: z.string(),  // ✅ Fixed incorrect nesting
+      rightImage: z.string(), // ✅ Fixed incorrect nesting
       featureList: z.array(
         z.object({
           title: z.string(),
