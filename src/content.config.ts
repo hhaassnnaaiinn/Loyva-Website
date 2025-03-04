@@ -11,6 +11,7 @@ import {
   pricing,
   equipmentLeasing, // ✅ Import the missing collection
   mortgage, 
+  banks,
   automotive, 
   securityAlarm, 
 
@@ -43,6 +44,7 @@ export const collections = {
   pricing,
   equipmentLeasing, // ✅ Add the missing collection
   mortgage, 
+  banks,
   automotive, 
   securityAlarm, 
 

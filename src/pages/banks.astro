@@ -1,0 +1,153 @@
+---
+import ImageMod from "@/components/ImageMod.astro";
+import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import CallToAction from "@/partials/CallToAction.astro";
+import FaqSection from "@/partials/FaqSection.astro";
+import IntegrationToolsSection from "@/partials/IntegrationToolsSection.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import ServicesSection from "@/partials/ServicesSection.astro";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+const banks = ((await getEntry("banks", "-index")) as CollectionEntry<"banks">)
+  .data;
+const {
+  title,
+  description,
+  meta_title,
+  hero,
+  services,
+  integrationTools,
+  pageHeader,
+  whatWeOffer,
+  why,
+  faq,
+} = banks;
+---
+
+<Base title={title} meta_title={meta_title} description={description}>
+  <section class="ph-spacing">
+    <PageHeader title={pageHeader.title} description={pageHeader.subtitle} />
+  </section>
+  <section class="section">
+    <div class="container-lg bg-primary text-white">
+        <h2 class="text-h5 font-large font-secondary  text-white mb-9">
+            {hero.heading}
+          </h2> <!-- ✅ Added heading here -->
+      
+      <div class="grid md:grid-cols-2 gap-6 mb-10 lg:mb-20">
+        <!-- LEFT IMAGE CONTAINER -->
+        <div
+          class="rounded-3xl bg-white/10 p-6"
+          data-aos="fade-up-sm"
+          data-aos-delay="100"
+        >
+          <ImageMod
+            width={544}
+            height={730}
+            class="w-full h-full object-cover rounded-2xl"
+            src={hero.leftImage}
+            alt="feature image"
+          />
+        </div>
+        <!-- RIGHT IMAGE CONTAINER -->
+        <div
+          class="rounded-3xl bg-white/10 p-6"
+          data-aos="fade-up-sm"
+          data-aos-delay="200"
+        >
+          <img
+            width={793}
+            height={587}
+            class="w-full h-full object-cover rounded-2xl"
+            src={hero.rightImage}
+            alt="feature image"
+          />
+        </div>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {
+          hero.featureList.map((feature, index) => (
+            <div
+              class="flex flex-col items-center text-center"
+              data-aos="fade-up-sm"
+              data-aos-delay={index * 100}
+            >
+              <div class="bg-secondary rounded-2xl w-16 h-16 grid place-items-center">
+                <span class="text-h5 font-medium font-secondary text-text">
+                  {++index}
+                </span>
+              </div>
+              <h3 class="text-h5 font-medium font-secondary  text-white mt-9">
+                {feature.title}
+              </h3>
+              <p class="text-light">{feature.description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  {
+    whatWeOffer.enable && (
+      <section class="section">
+        <div class="container">
+          <div class="flex flex-col gap-8 md:gap-16">
+            <h2
+              set:html={markdownify(whatWeOffer.title)}
+              data-aos="fade-up-sm"
+              data-aos-delay="100"
+            />
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {whatWeOffer.list.map((item, index) => (
+                <div
+                  class="flex flex-col gap-9 w-full"
+                  data-aos="fade-up-sm"
+                  data-aos-delay={index * 200}
+                >
+                  <div class="bg-theme-light rounded-3xl p-7 xl:min-h-[336px]">
+                    <ImageMod
+                      width={335}
+                      height={280}
+                      src={item.image}
+                      alt="service image"
+                      class="object-cover w-full h-full rounded-2xl"
+                    />
+                  </div>
+                  <div>
+                    <h4 class="text-h5">{item.title}</h4>
+                    <p class="text-dark/80">{item.subtitle}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+    )
+  }
+  {
+    why.enable && (
+      <section class="section">
+        <div class="container text-center">
+          <h2 class="text-h3 font-bold" data-aos="fade-up-sm">
+            {why.title}
+          </h2>
+          <p class="text-lg text-dark/80 mt-4" data-aos="fade-up-sm">
+            {why.description}
+          </p>
+        </div>
+      </section>
+    )
+  }
+  {services && services.enable && <ServicesSection />}
+  {
+    integrationTools && integrationTools.enable && (
+      <IntegrationToolsSection hasBgColor={true} />
+    )
+  }
+  {faq && faq.enable && <FaqSection />}
+  <CallToAction hasBackground={true} />
+</Base>

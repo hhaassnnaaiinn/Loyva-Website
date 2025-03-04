@@ -474,6 +474,64 @@ export const mortgage = defineCollection({
       .optional(),
   }),
 });
+export const banks = defineCollection({
+  loader: glob({
+    pattern: "**/-*.{md,mdx}",
+    base: "src/content/banks",
+  }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string(),
+    draft: z.boolean(),
+    pageHeader: z.object({
+      title: z.string(),
+      subtitle: z.string(),
+    }),
+    hero: z.object({
+      heading: z.string(), // ✅ Added heading
+      leftImage: z.string(),
+      rightImage: z.string(),
+      featureList: z.array(
+        z.object({
+          title: z.string(),
+          description: z.string(),
+        })
+      ),
+    }),
+    whatWeOffer: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      list: z.array(
+        z.object({
+          title: z.string(),
+          image: z.string(),
+          subtitle: z.string(),
+        })
+      ),
+    }),
+    why: z.object({
+      enable: z.boolean(),
+      title: z.string(),
+      description: z.string(),
+    }),
+    services: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    integrationTools: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+    faq: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(),
+  }),
+});
 export const automotive = defineCollection({
   loader: glob({
     pattern: "**/-*.{md,mdx}",

@@ -39,7 +39,7 @@ export interface NavigationLink {
         {
           menu.main.map((item) => (
             <li
-              id={item.hasChildren ? "industries" : null}
+              id={item.hasChildren ? item.name.toLowerCase() : null}
               class={`nav-item ${item.hasChildren ? "nav-dropdown group relative" : ""}`}
             >
               {item.hasChildren ? (
@@ -59,13 +59,12 @@ export interface NavigationLink {
               )}
               {item.hasChildren && (
                 <ul
-  class="hidden border border-border/10 lg:border-none mt-2 lg:mt-0 bg-dark p-4 lg:p-2 mb-2 lg:mb-0 
-         lg:transition-[opacity_transform] lg:duration-500 lg:absolute lg:right-0 lg:invisible 
-         lg:group-hover:visible lg:opacity-0 lg:group-hover:opacity-100 lg:scale-95 
-         lg:group-hover:scale-100 lg:group-hover:block lg:block min-w-max nav-dropdown-list"
-  id="industries-dropdown"
->
-
+                  class="hidden border border-border/10 lg:border-none mt-2 lg:mt-0 bg-dark p-4 lg:p-2 mb-2 lg:mb-0 
+                         lg:transition-[opacity_transform] lg:duration-500 lg:absolute lg:right-0 lg:invisible 
+                         lg:group-hover:visible lg:opacity-0 lg:group-hover:opacity-100 lg:scale-95 
+                         lg:group-hover:scale-100 lg:group-hover:block lg:block min-w-max nav-dropdown-list"
+                  id={`${item.name.toLowerCase()}-dropdown`}
+                >
                   {item.children.map((child: any) => (
                     <li class="nav-dropdown-item py-2">
                       <a href={child.url} class="nav-dropdown-link block px-4 py-2 hover:bg-gray-700 rounded">
@@ -112,6 +111,8 @@ export interface NavigationLink {
   const headerHamburgerInit = () => {
   const industries = document.getElementById("industries");
   const industriesDropdown = document.getElementById("industries-dropdown");
+  const partners = document.getElementById("partners");
+  const partnersDropdown = document.getElementById("partners-dropdown");
   const hamToggle = document.getElementById("nav-toggle");
   const hamBtn = document.querySelector(".ham-btn");
 
@@ -123,17 +124,26 @@ export interface NavigationLink {
 
   if (industries && industriesDropdown) {
     industries.addEventListener("click", (event) => {
-      const target = event.target as HTMLElement; // 🔥 Type assertion fix
+      const target = event.target as HTMLElement;
       if (!target.closest("a")) {
         event.preventDefault();
         industriesDropdown.classList.toggle("hidden");
       }
-  });
-}
+    });
+  }
+
+  if (partners && partnersDropdown) {
+    partners.addEventListener("click", (event) => {
+      const target = event.target as HTMLElement;
+      if (!target.closest("a")) {
+        event.preventDefault();
+        partnersDropdown.classList.toggle("hidden");
+      }
+    });
+  }
 };
 
 document.addEventListener("astro:page-load", () => {
   headerHamburgerInit();
 });
-
 </script>
