@@ -23,7 +23,7 @@ accomplishments:
       subtitle: "Minority Owned"
     - number: "1000"
       prefix: "+"
-      subtitle: "Trees Planted 🌲"
+      subtitle: "Trees Planted🌲"
 
 visionMission:
   enable: true
@@ -70,11 +70,9 @@ teamTestimonials:
         - title: "100%"
           subtitle: "Remote First"
         - title: "50%"
-          subtitle: "Activity Monitor"
-        - title: "1000+"
-          subtitle: "Trees Planted"
-        - title: "50%"
           subtitle: "Minority Owned"
+        - title: "1000+"
+          subtitle: "Trees Planted🌲"
     - name: "Ann Rose"
       position: "Product Manager"
       company: "/images/company/loyva.svg"
@@ -84,11 +82,9 @@ teamTestimonials:
         - title: "100%"
           subtitle: "Remote First"
         - title: "50%"
-          subtitle: "Activity Monitor"
-        - title: "1000+"
-          subtitle: "Trees Planted"
-        - title: "50%"
           subtitle: "Minority Owned"
+        - title: "1000+"
+          subtitle: "Trees Planted🌲"
 
 why:
   enable: true

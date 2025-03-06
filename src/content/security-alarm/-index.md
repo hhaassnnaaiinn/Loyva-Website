@@ -22,7 +22,7 @@ and improve customer experience."
       description: "Maintain real-time, tamper-evident audit trails for every contract and asset, supporting due diligence, lender audits, and investor requirements. Adheres to UCC Section 9-105, ESIGN, and UETA standards to protect digital contract enforceability."
 
 whatWeOffer:
-  enable: true
+  enable: false
   title: "Benefits"
   list:
     - title: "Accelerated Transactions"
@@ -41,7 +41,7 @@ whatWeOffer:
 why:
   enable: true
   title: "Why choose Loyva?"
-  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital solutions that enhance efficiency, security, and compliance. Our eVault technology is purpose-built to meet the unique needs of the equipment finance industry, providing a robust platform for managing digital assets with confidence. Join the digital transformation in equipment leasing with Loyva and experience the future of asset management today."
+  description: "Loyva is revolutionizing the security and alarm industry with cutting-edge digital solutions that enhance efficiency, security, and compliance. Our eVault technology is designed specifically for alarm companies, monitoring centers, and financial institutions, providing a secure and seamless platform for managing digital contracts, service agreements, and compliance documents. Protect your business with Loyva and experience a smarter, more secure approach to digital document management."
 
 services:
   enable: false
@@ -53,5 +53,27 @@ integrationTools:
 faq:
   enable: false
   # Content for the FAQ are in sections/faq.md
+list:
+  - title: ""
+    subtitle: "The security and alarm industry is evolving rapidly, requiring cutting-edge technology to meet modern demands. Loyva’s digital solutions are designed to streamline security operations, enhance compliance, and improve customer trust. By eliminating inefficiencies in traditional processes, security companies can deliver faster, more reliable, and more secure services."
+    image: "/images/features/security-alarm3.png"
+    list:
+        - "Accelerated Response Times
+Digitizing security contracts, service agreements, and alarm system authorizations significantly reduces the time it takes to activate new security services. With Loyva, security firms can automate approvals, enabling instant dispatching of security personnel and real-time monitoring activation. Faster service delivery leads to higher customer satisfaction and improved safety outcomes.
+"
+        - "Cost Efficiency
+Managing paper-based processes such as security contracts, compliance documents, and alarm system service records can be expensive and error-prone. Loyva eliminates printing, storage, and administrative costs while reducing manual errors. By streamlining digital document workflows, security companies can allocate more resources toward improving security operations instead of paperwork.
 
+"
+  - title: ""
+    subtitle: ""
+    image: "/images/features/security-alarm4.png"
+    list:
+        - "Enhanced Security & Fraud Prevention
+Protecting sensitive security data is critical. Loyva’s platform provides advanced encryption, secure document storage, and access-controlled authentication to prevent unauthorized alterations or fraud. Alarm system providers and security monitoring companies can ensure that service agreements, customer identities, and emergency protocols remain tamper-proof and compliant with industry standards.
+"
+        - "Improved Compliance & Regulatory Adherence
+Security companies must comply with various industry regulations, including data privacy laws, monitoring standards, and licensing requirements. Loyva’s digital transaction management system ensures that all security service agreements and compliance records are securely maintained and easily accessible. Automated audit trails reduce the risk of legal issues and enhance accountability in the security industry.
+By integrating Loyva’s secure and efficient digital solutions, security and alarm companies can optimize their operations, improve service reliability, and strengthen customer trust. Stay ahead of industry challenges with a seamless, secure, and scalable approach to security document management
+"
 ---

@@ -25,7 +25,7 @@ hero:
       description: "Putting our customers at the heart of everything we do, we strive to deliver exceptional experiences."
 
 whatWeOffer:
-  enable: true
+  enable: false
   title: "Benefits"
   list:
     - title: "Accelerated Transactions"
@@ -44,7 +44,7 @@ whatWeOffer:
 why:
   enable: true
   title: "Why choose Loyva?"
-  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital solutions that enhance efficiency, security, and compliance. Our eVault technology is purpose-built to meet the unique needs of the equipment finance industry, providing a robust platform for managing digital assets with confidence. Join the digital transformation in equipment leasing with Loyva and experience the future of asset management today."
+  description: "Loyva is dedicated to revolutionizing the mortgage industry with cutting-edge digital solutions that streamline processes, enhance security, and ensure compliance. Our eVault technology is designed specifically for mortgage lenders, servicers, and investors, providing a secure and efficient platform for managing digital mortgage assets with confidence. Embrace the future of mortgage document management with Loyva and experience a seamless, fully digital workflow."
 
 services:
   enable: false
@@ -57,4 +57,30 @@ faq:
   enable: false
   # Content for the FAQ are in sections/faq.md
 
+list:
+  - title: "Enhanced Borrower Experience"
+    subtitle: "Modern borrowers expect seamless, digital interactions throughout their mortgage journey. Loyva's platform facilitates this by allowing borrowers to review and sign documents electronically, reducing the stress and time associated with traditional paper-based processes. This convenience leads to higher borrower satisfaction and loyalty."
+    image: "/images/features/mortgage3.png"
+    list:
+        - "Increased Operational Efficiency
+By automating manual tasks such as document verification and signature collection, Loyva streamlines the mortgage closing process. This automation reduces errors and accelerates closing times, enabling lenders to process more loans with the same resources, thereby increasing profitability.
+
+"
+        - "Improved Compliance and Security
+Loyva's digital transaction management ensures that all documents are securely stored and easily accessible, maintaining compliance with industry regulations. Features like eVaulting provide a secure repository for electronic notes (eNotes), ensuring the authenticity and legal
+
+"
+  - title: ""
+    subtitle: ""
+    image: "/images/features/mortgage4.jpg"
+    list:
+        - "Enhanced Stakeholder Collaboration
+The mortgage process involves multiple stakeholders, including lenders, title companies, and notaries. Loyva's platform fosters better collaboration among these parties by providing real-time updates and a centralized system for document management, leading to smoother transactions and reduced miscommunication
+
+"
+        - "Cost Reduction
+Transitioning to digital processes with Loyva reduces the need for physical storage, printing, and mailing of documents, leading to significant cost savings. Additionally, the reduction in errors and faster processing times contribute to lower operational costs. ​
+By integrating Loyva's digital solutions, mortgage professionals can modernize their operations, meet the evolving expectations of borrowers, and stay competitive in a rapidly changing industry landscape.
+
+"
 ---

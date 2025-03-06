@@ -618,6 +618,15 @@ export const mortgage = defineCollection({
         enable: z.boolean(),
       })
       .optional(),
+
+    list: z.array(
+        z.object({
+          title: z.string(),
+          subtitle: z.string(),
+          image: z.string(),
+          list: z.array(z.string()),
+        })
+      ),
   }),
 });
 export const banks = defineCollection({
@@ -733,6 +742,15 @@ export const automotive = defineCollection({
         enable: z.boolean(),
       })
       .optional(),
+
+    list: z.array(
+        z.object({
+          title: z.string(),
+          subtitle: z.string(),
+          image: z.string(),
+          list: z.array(z.string()),
+        })
+      ),
   }),
 });
 export const securityAlarm = defineCollection({
@@ -790,6 +808,15 @@ export const securityAlarm = defineCollection({
         enable: z.boolean(),
       })
       .optional(),
+
+    list: z.array(
+        z.object({
+          title: z.string(),
+          subtitle: z.string(),
+          image: z.string(),
+          list: z.array(z.string()),
+        })
+      ),
   }),
 });
 

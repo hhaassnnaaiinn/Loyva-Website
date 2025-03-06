@@ -24,7 +24,7 @@ hero:
       description: "Optimize valuation and liquidity by enabling electronic transfers of auto loans within days instead of weeks. Digitized loan portfolios provide greater trust and confidence to investors, facilitating faster securitization and resale. "
 
 whatWeOffer:
-  enable: true
+  enable: false
   title: "Benefits"
   list:
     - title: "Accelerated Transactions"
@@ -43,7 +43,7 @@ whatWeOffer:
 why:
   enable: true
   title: "Why choose Loyva?"
-  description: "Loyva is committed to empowering equipment leasing companies with state-of-the-art digital solutions that enhance efficiency, security, and compliance. Our eVault technology is purpose-built to meet the unique needs of the equipment finance industry, providing a robust platform for managing digital assets with confidence. Join the digital transformation in equipment leasing with Loyva and experience the future of asset management today."
+  description: "Loyva is transforming the automotive finance industry with advanced digital solutions that enhance efficiency, security, and compliance. Our eVault technology is designed specifically for auto lenders, dealers, and financial institutions, providing a secure and seamless platform for managing digital loan documents and contracts. Drive the future of automotive financing with Loyva and experience a smarter, more streamlined approach to digital asset management."
 
 services:
   enable: false
@@ -55,5 +55,27 @@ integrationTools:
 faq:
   enable: false
   # Content for the FAQ are in sections/faq.md
+list:
+  - title: ""
+    subtitle: "In today's fast-paced automotive industry, embracing digital solutions is no longer optional—it's essential. Loyva's innovative platform offers a suite of benefits tailored specifically for automotive businesses aiming to streamline operations, enhance customer satisfaction, and boost profitability."
+    image: "/images/features/automotive1.jpg"
+    list:
+        - "Accelerated Contracting Processes
+Traditional paper-based contracting can be cumbersome and time-consuming. Loyva's digital contract management system transforms this by enabling faster closing of contracts and ancillary documents such as insurance and titling through straight-through processing in a single transaction. This efficiency not only reduces administrative burdens but also enhances the overall customer experience.
+"
+        - "Enhanced Security and Compliance
+In an era where data breaches are a significant concern, Loyva's platform offers robust security features. Electronic signatures provide a secure and tamper-proof method of signing loan documents, reducing the risk of fraud and disputes. Moreover, the platform ensures that all digital transactions comply with legal standards, maintaining the integrity and authenticity of critical documents.​
+"
+  - title: ""
+    subtitle: ""
+    image: "/images/features/automotive.jpg"
+    list:
+        - "Improved Customer Loyalty
+By leveraging digital tools, automotive businesses can foster stronger relationships with their customers. Loyva's platform facilitates personalized experiences, timely communications, and efficient service delivery, all of which contribute to increased customer satisfaction and loyalty. In an industry where repeat business is crucial, these features can significantly impact a company's bottom line.
+"
+        - "Seamless Integration and Scalability
+Loyva's solutions are designed to integrate seamlessly with existing loan origination and dealer management systems, allowing for complete automation of the vehicle financing process. This adaptability ensures that businesses can scale their operations without facing significant technological hurdles, positioning them for sustained growth in a competitive market. 
+Incorporating Loyva's digital solutions equips automotive businesses with the tools necessary to navigate the industry's evolving landscape, ensuring they remain competitive and responsive to both market demands and customer expectations.
 
+"
 ---
