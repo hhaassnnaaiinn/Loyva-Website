@@ -45,13 +45,14 @@ const {
 
   <!-- Why Section (conditionally rendered) -->
   {why?.enable && (
-    <section class="py-8 sm:px-4">
+    <section class="py-20 sm:px-4 mt-0 mb-20">
       <div class="container text-center">
         <h2 class="text-h3 font-bold" data-aos="fade-up-sm">{why.title}</h2>
         <p class="text-lg text-dark/80 mt-4" data-aos="fade-up-sm">{why.description}</p>
       </div>
     </section>
   )}
+  
 
   <!-- Team Testimonials Section -->
   <TeamTestimonials testimonials={teamTestimonials} />
