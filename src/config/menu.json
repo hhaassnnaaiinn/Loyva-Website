@@ -70,6 +70,10 @@
     {
       "name": "Conditions",
       "url": "/terms"
+    },
+    {
+      "name": "Security",
+      "url": "/security"
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 title: Work with the best technology stack you already use
 button:
-  enable: true
+  enable: false
   label: "Integration All"
   link: "/company"
 list:

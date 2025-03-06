@@ -80,10 +80,11 @@ servicesWithCTA:
   #end
   cta:
     enable: true
-    head: "Analytics and Reporting"
+    head: "Digital Vaulting"
     icon: "stars"
-    title: "Insightful Analytics & <br> Comprehensive Reporting"
-    subtitle: "Gain actionable insights into your workforce with our HR <br> Management SaaS, offering robust analytics."
+    title: "Secure, Compliant, Digital Mortgage Vaulting"
+    subtitle: "Loyva powers secure, compliant eVaulting—eliminating inefficiencies, accelerating approvals, and protecting authoritative documents. 
+Upgrade to the future of mortgage lending with Loyva. Secure. Compliant. Seamless."
     button:
       enable: true
       label: "Book a Demo"
@@ -92,5 +93,5 @@ servicesWithCTA:
       sm_1: "/images/services/service-cta-1.png"
       sm_2: "/images/services/service-cta-2.png"
       sm_3: "/images/services/service-cta-3.png"
-      lg: "/images/services/service-cta-4.png"
+      lg: "/images/services/homepage-cta.png"
 ---

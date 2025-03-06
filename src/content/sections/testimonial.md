@@ -3,14 +3,14 @@ arrowIcon: "arrow-right"
 
 # Testimonials
 testimonials:
-  - name: "Brooklyn Leen"
-    designation: "Founder, Lumessa"
+  - name: "Nicholas Tyson"
+    designation: "- Co-Founder, Loyva"
     avatar: "/images/avatar/1.png"
-    companyLogo: "/images/company/lumessa.png"
-    content: "It's intuitive, efficient, and has saved us countless hours. Our team can focus on what really matters."
-  - name: "Martin Garrix"
-    designation: "Co-Founder, Lumessa"
+    companyLogo: "/images/company/loyva.png"
+    content: "We built Loyva to provide a great product and an exceptional customer experience, helping businesses operate smoothly without concerns about compliance or efficiency."
+  - name: "Ivy Donnie"
+    designation: "- Co-Founder, Loyva"
     avatar: "/images/avatar/2.png"
-    companyLogo: "/images/company/novadex.png"
-    content: "Loyva is super easy to edit. We've built the website and launched it in the fastest time we ever could!"
+    companyLogo: "/images/company/loyva.png"
+    content: "Speed, efficiency, and security are table stakes when choosing who to trust with your digital financial assets. Give Löyva 1%, and we’ll earn the other 99%."
 ---

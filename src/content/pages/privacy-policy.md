@@ -7,25 +7,25 @@ draft: false
 
 #### Introduction
 
-Loyva, Inc. ("Loyva," "we," "us," or "our") respects your privacy and is committed to protecting it through this Privacy Policy. This policy describes the types of information we collect from you, how we use it, and the measures we take to safeguard your data when you visit Loyva.io (the "Website") and use our services
+Loyva, Inc. ("Loyva," "we," "us," or "our") respects your privacy and is committed to protecting it through this Privacy Policy. This policy describes the types of information we collect from you, how we use it, and the measures we take to safeguard your data when you visit Loyva.io (the "Website") and use our services.
 
 #### Information We Collect
 
-**a. Personal Information You Provide<br>**
+**a. Personal Information You Provide**  
 We may collect the following types of personal information when you interact with us:
 - Name, email address, phone number, and business details
 - Login credentials
 - Payment and billing information for subscriptions or services
 - Any other information you voluntarily provide when using our platform
 
-**b. Information Collected Automatically<br>**
+**b. Information Collected Automatically**  
 When you visit our Website, we may automatically collect certain data, including:
 - IP address, browser type, and operating system
 - Pages visited and time spent on the Website
 - Cookies and tracking technologies (see Section 6)
 
-**c. Information from Third Parties<br>**
-- We may receive data from third-party partners, such as analytics providers or business affiliates, to enhance our services.
+**c. Information from Third Parties**  
+We may receive data from third-party partners, such as analytics providers or business affiliates, to enhance our services.
 
 #### How We Use Your Information
 
@@ -35,7 +35,6 @@ We use the information we collect for the following purposes:
 - To monitor and analyze usage trends and improve user experience
 - To ensure security, prevent fraud, and comply with legal obligations
 
-
 #### Sharing Your Information
 
 We do not sell or rent your personal information. However, we may share your data with:
@@ -43,11 +42,12 @@ We do not sell or rent your personal information. However, we may share your dat
 - Legal and Regulatory Authorities when required to comply with applicable laws
 - Business Transfers in connection with a merger, sale, or corporate transaction involving Loyva
 
-
 #### Data Security
+
 We implement industry-standard security measures to protect your data from unauthorized access, alteration, or disclosure. However, no online system is completely secure, and we cannot guarantee absolute protection.
 
 #### Your Rights and Choices
+
 Depending on your location, you may have rights regarding your personal data, including:
 - Access & Correction: You may request access to or correction of your personal information.
 - Deletion: You may request the deletion of your data, subject to legal retention requirements.
@@ -55,18 +55,18 @@ Depending on your location, you may have rights regarding your personal data, in
 
 For requests, contact us at support@loyva.io.
 
-
 #### Cookies and Tracking Technologies
+
 We use cookies and similar technologies to enhance user experience. You can adjust cookie settings through your browser.
 
-
 #### Changes to This Privacy Policy
+
 We may update this Privacy Policy periodically. Any changes will be posted on this page with the "Last Updated" date.
 
-#### Contact Information  
+#### Contact Information
 
-For any questions regarding this Privacy Policy, please contact:<br>
-Loyva, Inc. <br>
-2014 Shady Branch Drive <br>
-Kingwood, Texas 77339 <br>
+For any questions regarding this Privacy Policy, please contact:  
+Loyva, Inc.  
+2014 Shady Branch Drive  
+Kingwood, Texas 77339  
 Email: support@loyva.io

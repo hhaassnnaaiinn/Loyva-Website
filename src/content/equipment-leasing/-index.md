@@ -24,7 +24,7 @@ hero:
       description: "Loyva integrates effortlessly with existing systems, allowing for smooth adoption without disrupting current workflows."
 
 whatWeOffer:
-  enable: true
+  enable: false
   title: "Benefits"
   list:
     - title: "Accelerated Transactions"
@@ -55,5 +55,30 @@ integrationTools:
 faq:
   enable: false
   # Content for the FAQ are in sections/faq.md
+
+
+
+list:
+  - title: ""
+    subtitle: "​In the equipment leasing industry, digital transformation is pivotal for enhancing efficiency, security, and customer satisfaction. Loyva's advanced digital solutions are designed to streamline leasing operations, mitigate risks, and improve overall business performance."
+    image: "/images/features/equipment-leasing-11.png"
+    list:
+        - "Accelerated Contracting Processes
+Traditional paper-based leasing contracts can be time-consuming and prone to errors. Loyva's digital contract management system enables the creation, execution, and management of electronic lease agreements, significantly reducing processing times and minimizing errors. This efficiency allows companies to serve clients more promptly and effectively.​
+"
+        - "Enhanced Compliance and Security
+Maintaining compliance with industry regulations is crucial in equipment leasing. Loyva's platform ensures that all digital transactions adhere to legal standards, providing a secure and tamper-proof method for managing lease documents. Features like electronic signatures and secure document storage enhance the authenticity and integrity of critical documents, reducing the risk of fraud and disputes.​
+"
+  - title: ""
+    subtitle: ""
+    image: "/images/features/equipment-leasing3.png"
+    list:
+        - "Improved Customer Experience
+By digitizing the leasing process, Loyva offers customers a seamless and convenient experience. Clients can review and sign lease agreements electronically, access their documents anytime, and receive faster service. This modern approach not only meets the evolving expectations of customers but also fosters stronger relationships and loyalty.​
+"
+        - "Cost Reduction
+Transitioning to digital processes with Loyva reduces the need for physical storage, printing, and mailing of documents, leading to significant cost savings. Additionally, the reduction in errors and faster processing times contribute to lower operational costs.​
+By integrating Loyva's digital solutions, equipment leasing companies can modernize their operations, enhance compliance, and deliver superior customer service, positioning themselves competitively in a rapidly evolving industry landscape.
+"
 
 ---

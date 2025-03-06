@@ -12,6 +12,7 @@ import {
   equipmentLeasing, // ✅ Import the missing collection
   mortgage, 
   banks,
+  security,
   automotive, 
   securityAlarm, 
 
@@ -25,6 +26,7 @@ import {
   integrationToolsSection,
   pricingSection,
   servicesSection,
+  securitySection,
   testimonialSection,
   trustedBrandsSection,
 } from "./types/sections.collections";
@@ -45,6 +47,7 @@ export const collections = {
   equipmentLeasing, // ✅ Add the missing collection
   mortgage, 
   banks,
+  security,
   automotive, 
   securityAlarm, 
 
@@ -56,6 +59,7 @@ export const collections = {
   integrationToolsSection,
   pricingSection,
   servicesSection,
+  securitySection,
   testimonialSection,
   trustedBrandsSection,
 };

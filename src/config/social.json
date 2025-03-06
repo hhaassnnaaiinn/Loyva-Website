@@ -1,24 +1,24 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "FiFacebook",
-      "link": "https://www.facebook.com/"
+      "name": "linkedin",
+      "icon": "FiLinkedin",
+      "link": "https://www.linkedin.com/company/loyva/about/?viewAsMember=true"
+    },
+    {
+      "name": "instagram",
+      "icon": "FiInstagram",
+      "link": "https://www.instagram.com/loyva.io/?hl=en"
+    },
+    {
+      "name": "youtube",
+      "icon": "FiYoutube",
+      "link": "https://www.youtube.com/channel/UCMBYN5hNCr8sNfgixPHSwGA"
     },
     {
       "name": "twitter",
       "icon": "FiTwitter",
-      "link": "https://twitter.com/"
-    },
-    {
-      "name": "github",
-      "icon": "FiGithub",
-      "link": "https://www.github.com/"
-    },
-    {
-      "name": "linkedin",
-      "icon": "FiLinkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://x.com/LoyvaSupport"
     }
   ]
 }

@@ -3,7 +3,6 @@ title: "Terms and Conditions"
 meta_title: ""
 description: "this is meta description"
 draft: false
-
 ---
 
 ###### Introduction
@@ -21,6 +20,7 @@ You may use Loyva’s services only for lawful purposes. You agree not to:
 - **Infringe on intellectual property rights**
 - **Use automated means to access our Website without authorization**
 - **Distribute malware, spam, or harmful content**
+- **Engage in unauthorized data collection or scraping activities**
 
 ###### Account Registration
 
@@ -28,21 +28,43 @@ To access certain features, you may need to create an account. You are responsib
 
 ###### Payments and Fees
 
-AIf you subscribe to paid services, you agree to:
+If you subscribe to paid services, you agree to:
 - **Pay all applicable fees as stated at checkout**
 - **Provide accurate billing information**
 - **Authorize us to charge your payment method**
 
 Payments are non-refundable unless explicitly stated.
 
-###### Intellectual Property
+###### Compliance with Laws and Regulations
 
-All content, trademarks, and software on Loyva.io are owned by Loyva and are protected by copyright and intellectual property laws. You may not reproduce, distribute, or modify any part of our Website without our permission.
+Loyva operates in full compliance with applicable federal, state, and industry regulations, including but not limited to:
+- **Data Protection Laws**: Compliance with GDPR, CCPA, and other applicable data protection regulations.
+- **Electronic Transactions**: Adherence to the Uniform Electronic Transactions Act (UETA) and the Electronic Signatures in Global and National Commerce Act (E-SIGN).
+- **Financial Regulations**: Compliance with applicable lending, leasing, and financial industry regulations.
 
-###### Disclaimers and Limitation of Liability
+###### Secure Document Storage
 
-Loyva provides services "as is" and makes no warranties regarding: 
+All electronic documents, including eNotes, contracts, and ancillary files, are securely stored in compliance with industry standards. Loyva partners with leading cloud storage providers to ensure data is encrypted both in transit and at rest. Users are responsible for maintaining the confidentiality of their access credentials and ensuring the security of their accounts.
 
+###### Cybersecurity Measures
+
+Loyva implements advanced cybersecurity measures to protect user data, including but not limited to:
+- **Encryption**: All sensitive data is encrypted using industry-standard encryption protocols.
+- **Multi-Factor Authentication (MFA)**: Users may be required to authenticate their identities using multiple verification methods.
+- **Regular Security Audits**: Loyva conducts routine security assessments to identify and address vulnerabilities.
+- **Access Controls**: Strict role-based access control policies ensure that only authorized personnel can access sensitive data.
+
+###### User Responsibilities
+
+Users must ensure the accuracy and legality of the documents they submit, store, or process through the platform. Users agree not to engage in fraudulent activities or unauthorized access to data. Any suspicious activity should be reported to Loyva’s security team immediately.
+
+###### Data Privacy and Confidentiality
+
+Loyva respects user privacy and does not sell, share, or distribute personal data without consent, except as required by law. Users have the right to request access, modification, or deletion of their personal information in accordance with applicable privacy laws.
+
+###### Liability and Disclaimers
+
+Loyva provides services "as is" and makes no warranties regarding:
 - **The accuracy or reliability of content**
 - **The uninterrupted or error-free operation of the Website**
 - **The suitability of our services for your needs**
@@ -59,9 +81,9 @@ These Terms are governed by the laws of Delaware, USA. Any disputes shall be res
 
 ###### Changes to These Terms
 
-We may update these Terms periodically. Continued use of our services constitutes acceptance of the revised Terms
+We may update these Terms periodically. Continued use of our services constitutes acceptance of the revised Terms.
 
-###### Contact Information  
+###### Contact Information
 
 For any questions regarding these Terms, please contact:<br>
 Loyva, Inc. <br>

@@ -179,6 +179,23 @@ export const servicesSection = defineCollection({
   }),
 });
 
+export const securitySection = defineCollection({
+  loader: glob({
+    pattern: "security.{md,mdx}",
+    base: "src/content/sections",
+  }),
+  schema: z.object({
+    list: z.array(
+      z.object({
+        title: z.string(),
+        subtitle: z.string(),
+        image: z.string(),
+        list: z.array(z.string()),
+      })
+    ),
+  }),
+});
+
 export const testimonialSection = defineCollection({
   loader: glob({
     pattern: "testimonial.{md,mdx}",

@@ -14,7 +14,7 @@ formContent:
       label: "Send a Message"
 imageContent:
   content: "Loyva has been instrumental in helping us transform from a paper based to a digital first company"
-  name: LoyalHaus Properties
-  designation: "Software Engineer"
+  name: LoyalHaus
+  designation: "Operations Manager"
   image: "/images/portraits/11213.png"
 ---

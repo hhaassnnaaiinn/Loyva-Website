@@ -114,59 +114,14 @@ const { leftCard, rightCard, cta } = servicesWithCTA;
             </div>
 
             {/* RIGHT SIDE: GRID IMAGES */}
-            <div class="grid grid-cols-12 grid-rows-3 gap-4">
-              <div
-                class="size-full col-span-4 "
-                data-aos="zoom-in-sm"
-                data-aos-delay="100"
-              >
-                <ImageMod
-                  width={187}
-                  height={113}
-                  src={cta.images?.sm_1}
-                  alt="CTA"
-                  class="w-full h-full object-cover rounded-2xl"
-                />
-              </div>
-              <div
-                class="size-full col-span-8 row-span-3 "
-                data-aos="zoom-in-sm"
-                data-aos-delay="200"
-              >
-                <ImageMod
-                  width={381}
-                  height={350}
-                  class="w-full h-full object-cover rounded-2xl"
-                  src={cta.images.lg}
-                  alt="CTA"
-                />
-              </div>
-              <div
-                class="size-full col-span-4"
-                data-aos="zoom-in-sm"
-                data-aos-delay="300"
-              >
-                <ImageMod
-                  width={187}
-                  height={113}
-                  src={cta.images.sm_2}
-                  alt="CTA"
-                  class=" w-full h-full object-cover rounded-2xl"
-                />
-              </div>
-              <div
-                class="size-full col-span-4 "
-                data-aos="zoom-in-sm"
-                data-aos-delay="400"
-              >
-                <ImageMod
-                  width={187}
-                  height={113}
-                  class="w-full h-full object-cover rounded-2xl"
-                  src={cta.images.sm_3}
-                  alt="CTA"
-                />
-              </div>
+            <div class="size-full" data-aos="zoom-in-sm" data-aos-delay="200">
+              <ImageMod
+                width={381}
+                height={350}
+                class="w-full h-full object-cover rounded-2xl"
+                src={cta.images.lg}
+                alt="CTA"
+              />
             </div>
           </div>
         </div>

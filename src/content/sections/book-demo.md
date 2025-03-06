@@ -9,8 +9,8 @@ button:
   label: "Book a Demo"
 
 rightSection:
-  name: LoyalHaus Properties
-  designation: "Software Engineer"
+  name: LoyalHaus
+  designation: "Operations Manager"
   profileImage: "/images/portraits/11213.png"
   content: "Loyva has been instrumental in helping us transform from a paper based to a digital first company"
 ---

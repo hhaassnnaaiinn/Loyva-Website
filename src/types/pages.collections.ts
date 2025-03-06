@@ -179,6 +179,13 @@ export const company = defineCollection({
         ),
       })
       .optional(),
+    why: z
+      .object({
+        enable: z.boolean(),
+        title: z.string(),
+        description: z.string(),
+      })
+      .optional(),
     teamTestimonials: z
       .object({
         enable: z.boolean(),
@@ -203,6 +210,136 @@ export const company = defineCollection({
       .optional(),
   }),
 });
+export const security = defineCollection({
+  loader: glob({
+    pattern: "**/-*.{md,mdx}",
+    base: "src/content/security",
+  }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string(),
+    draft: z.boolean(),
+    hero: z.object({
+      title: z.string(),
+      subtitle: z.string(),
+    }),
+    gallery: z
+      .object({
+        enable: z.boolean(),
+        topLeftCard: z
+          .object({
+            title: z.string(),
+            icon: z.string(),
+            description: z.string(),
+          })
+          .optional(),
+        topCenterImage: z.string().optional(),
+        topRightImage: z.string().optional(),
+        bottomLeftImage: z.string().optional(),
+        bottomCenterImage: z.string().optional(),
+        bottomRightCard: z
+          .object({
+            title: z.string(),
+            description: z.string(),
+            author: z
+              .object({
+                name: z.string(),
+                position: z.string(),
+              })
+              .optional(),
+          })
+          .optional(),
+      })
+      .optional(),
+    accomplishments: z
+      .object({
+        enable: z.boolean(),
+        title: z.string(),
+        subtitle: z.string(),
+        list: z.array(
+          z.object({
+            number: z.string(),
+            prefix: z.string(),
+            subtitle: z.string(),
+          })
+        ),
+      })
+      .optional(),
+    visionMission: z
+      .object({
+        enable: z.boolean(),
+        mission: z.object({
+          title: z.string(),
+          list: z.array(
+            z.object({
+              title: z.string(),
+              icon: z.string(),
+              description: z.string(),
+            })
+          ),
+        }),
+        vision: z.object({
+          title: z.string(),
+          list: z.array(
+            z.object({
+              title: z.string(),
+              icon: z.string(),
+              description: z.string(),
+            })
+          ),
+        }),
+      })
+      .optional(),
+    companies: z
+      .object({
+        enable: z.boolean(),
+        list: z.array(
+          z.object({
+            name: z.string(),
+            logo: z.string(),
+          })
+        ),
+      })
+      .optional(),
+    why: z
+      .object({
+        enable: z.boolean(),
+        title: z.string(),
+        description: z.string(),
+      })
+      .optional(),
+    teamTestimonials: z
+      .object({
+        enable: z.boolean(),
+        title: z.string(),
+        arrowIcon: z.string(),
+        list: z.array(
+          z.object({
+            name: z.string(),
+            position: z.string(),
+            company: z.string(),
+            profileImage: z.string(),
+            description: z.string(),
+            stats: z.array(
+              z.object({
+                title: z.string(),
+                subtitle: z.string(),
+              })
+            ),
+          })
+        ),
+      })
+      .optional(),
+    services: z
+      .object({
+        enable: z.boolean(),
+      })
+      .optional(), // Added services field here
+  }),
+});
+
+
 
 
 export const blog = defineCollection({
@@ -415,6 +552,15 @@ export const equipmentLeasing = defineCollection({
         enable: z.boolean(),
       })
       .optional(),
+
+    list: z.array(
+        z.object({
+          title: z.string(),
+          subtitle: z.string(),
+          image: z.string(),
+          list: z.array(z.string()),
+        })
+      ),
   }),
 });
 export const mortgage = defineCollection({

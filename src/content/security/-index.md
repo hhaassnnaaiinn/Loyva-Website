@@ -1,17 +1,14 @@
 ---
-title: "Loyva | Company"
+title: "Loyva | Security"
 meta_title: ""
 description: "this is meta description"
 draft: false
 
 hero:
-  title: "About Loyva"
-  subtitle: "At Loyva, we believe businesses deserve a secure, seamless, and intelligent way to manage their financial assets. Founded by a team of SaaS veterans who have helped scale unicorn companies, we saw a critical gap—organizations lacked a modern, compliant, and automated solution to protect and manage their most valuable assets. <br><br>
-  That’s why we built Loyva. Our secure platform combines cutting-edge workflow automation, compliance-first architecture, and an intuitive experience designed for modern businesses. Whether you're streamlining operations, ensuring regulatory compliance, or securing high-value transactions, Loyva empowers you to move faster with confidence. <br><br>
-Our mission is simple: to redefine how businesses safeguard and optimize their financial assets in an increasingly digital world.
-"
+  title: "Loyva Security"
+  subtitle: "At Loyva, we prioritize the security and privacy of your data. Our platform is designed with robust security measures to protect sensitive documents and ensure compliance with industry standards. Below are the key security protocols we have implemented."
 accomplishments:
-  enable: true
+  enable: false
   title: "Create Impact, Elevate Your Career"
   subtitle: "Are you ready to shape the future with a team that values your potential?"
   list:
@@ -26,7 +23,7 @@ accomplishments:
       subtitle: "Trees Planted 🌲"
 
 visionMission:
-  enable: true
+  enable: false
   mission:
     title: "Our Mission"
     list:
@@ -57,7 +54,7 @@ companies:
       logo: "/images/company/webflow.avif"
 
 teamTestimonials:
-  enable: true
+  enable: false
   title: "Create Impact, Elevate Your Career"
   arrowIcon: "arrow-right"
   list:

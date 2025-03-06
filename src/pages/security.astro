@@ -6,7 +6,7 @@ import CallToAction from "@/partials/CallToAction.astro";
 import IntegrationToolsSection from "@/partials/IntegrationToolsSection.astro";
 import PageHeader from "@/partials/PageHeader.astro";
 // import TeamGallery from "@/partials/TeamGallery.astro";
-import ServicesSection from "@/partials/ServicesSection.astro";
+import SecuritySection from "@/partials/SecuritySection.astro";
 import TeamTestimonials from "@/partials/TeamTestimonials.astro";
 import VisionAndMission from "@/partials/VisionAndMission.astro";
 import type { CollectionEntry } from "astro:content";
@@ -23,7 +23,7 @@ const {
   companies,
   teamTestimonials,
   why,
-} = ((await getEntry("company", "-index")) as CollectionEntry<"company">).data;
+} = ((await getEntry("security", "-index")) as CollectionEntry<"security">).data;
 ---
 
 <Base title={title} meta_title={meta_title} description={description}>
@@ -31,8 +31,8 @@ const {
     <PageHeader title={hero.title} description={hero.subtitle} />
   </section>
 
-  <!-- Services Section -->
-  <ServicesSection gallery={gallery} />
+  <!-- Security Section -->
+  <SecuritySection gallery={gallery} />
   
   <!-- Accomplishments Section -->
   <Accomplishments accomplishments={accomplishments} />
@@ -44,14 +44,14 @@ const {
   <AboutCompanies companies={companies} />
 
   <!-- Why Section (conditionally rendered) -->
-  {why?.enable && (
+  <!-- {why?.enable && (
     <section class="py-8 sm:px-4">
       <div class="container text-center">
         <h2 class="text-h3 font-bold" data-aos="fade-up-sm">{why.title}</h2>
         <p class="text-lg text-dark/80 mt-4" data-aos="fade-up-sm">{why.description}</p>
       </div>
     </section>
-  )}
+  )} -->
 
   <!-- Team Testimonials Section -->
   <TeamTestimonials testimonials={teamTestimonials} />
