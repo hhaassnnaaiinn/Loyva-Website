@@ -1,7 +1,7 @@
 ---
-title: "Privacy Policies"
-meta_title: ""
-description: "this is meta description"
+title: "Loyva Privacy Policy"
+meta_title: "Loyva | Privacy Policy – Your Data, Secure & Protected"
+description: "Learn how Loyva safeguards your data with industry-leading security and compliance standards. Read our privacy policy for full details."
 draft: false
 ---
 

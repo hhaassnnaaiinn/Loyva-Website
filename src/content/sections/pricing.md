@@ -1,6 +1,6 @@
 ---
-title: "Pricing Plan"
-subtitle: "Streamline HR processes and empower your team with our products. Effortlessly manage employee data, and more."
+title: "Loyva | Pricing Plan"
+subtitle: "Optimize HR processes and empower your workforce with our seamless solutions."
 
 plans_labels:
   - "Monthly"
@@ -8,7 +8,7 @@ plans_labels:
 discount: "-30%"
 plans:
   - title: Essential
-    description: Designed for growing businesses with more advanced needs.
+    description: Designed for growing businesses with more advanced HR needs.
     price_prefix: "$"
     features:
       - Centralized employee database
@@ -33,7 +33,7 @@ plans:
       text: Get Started
       link: "/contact"
   - title: Premium
-    description: Advanced features for established businesses seeking growth
+    description: Advanced features for established businesses seeking enhanced HR management.
     price_prefix: "$"
     features:
       - All Essential features
@@ -58,7 +58,7 @@ plans:
       text: Get Started
       link: "/contact"
   - title: Business
-    description: Comprehensive solution for large enterprises with complex needs
+    description: Comprehensive HR solution for enterprises with complex workforce needs.
     price_prefix: "$"
     features:
       - All Premium features
@@ -81,6 +81,4 @@ plans:
       text: "🚀 Best Value"
     cta:
       enable: true
-      text: Get Started
-      link: "/contact"
----
+      te

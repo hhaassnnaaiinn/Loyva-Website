@@ -1,7 +1,7 @@
 ---
-title: "Loyva | Contact"
-meta_title: ""
-description: "this is meta description"
+title: "Loyva | Contact Us"
+meta_title: "Loyva | Get in Touch – Secure Financial Solutions"
+description: "Have questions or need assistance? Contact Loyva’s team for expert support on secure financial management and automation solutions."
 draft: false
 
 formContent:

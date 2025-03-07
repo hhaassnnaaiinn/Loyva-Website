@@ -1,14 +1,14 @@
 ---
-title: "A management platform to help you succeed"
-subtitle: "Simplify your workforce's time management with our intuitive HR Management."
+title: "A Management Platform to Help You Succeed"
+subtitle: "Simplify workforce management with our intuitive HR solutions."
 button:
   enable: true
   label: "Book a Demo"
   link: "/book-demo"
 
 firstCard:
-  title: "160+ Countries"
-  desc: "Putting our customers at the heart of everything we do, we strive."
+  title: "Trusted in 160+ Countries"
+  desc: "Empowering businesses worldwide with cutting-edge HR management solutions."
   marqueeList:
     # Maximum of 4 marqueeChildList items per marqueeList
     - marqueeChildList:
@@ -49,8 +49,8 @@ firstCard:
           image: "/images/countries/qatar.svg"
 
 secondCard:
-  title: "12M secured users"
-  desc: "Putting our customers at the heart of everything we do, we strive."
+  title: "12M+ Secured Users"
+  desc: "Ensuring data security and seamless HR operations for millions worldwide."
   image: "/images/global-users.svg"
   imageAlt: "Global Users"
 ---

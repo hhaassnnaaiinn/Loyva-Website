@@ -1,6 +1,6 @@
 {
-  "site": {
-    "title": "Loyva",
+ "site": {
+    "title": "Loyva | Secure, Compliant & Intelligent Digital Asset Management",
     "base_url": "https://loyva.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
@@ -19,7 +19,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "footer_description": "Digital Asset Management Redefined ",
+    "footer_description": "Digital Asset Management Redefined",
     "copyright": "Copyright © {year} Loyva. All Rights Reserved"
   },
 
@@ -34,8 +34,8 @@
   },
 
   "metadata": {
-    "meta_author": "Hasnain-Ahmed",
+    "meta_author": "Nicholas Tyson",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Saas & Startup Template"
+    "meta_description": "Loyva - The Future of Secure Financial Asset Management and Compliance Automation"
   }
 }

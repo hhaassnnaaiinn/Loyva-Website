@@ -1,7 +1,7 @@
 ---
 title: "Loyva | Security & Alarm"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Loyva | Secure & Smart Alarm Solutions"
+description: "Enhance your security with Loyva’s advanced alarm solutions. Ensure real-time monitoring, compliance, and data protection for your business."
 draft: false
 
 pageHeader:

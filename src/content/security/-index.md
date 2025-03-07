@@ -1,7 +1,7 @@
 ---
 title: "Loyva | Security"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Loyva | Advanced Security & Compliance Solutions"
+description: "Discover how Loyva ensures enterprise-grade security, data encryption, and compliance to protect your business and customer information."
 draft: false
 
 hero:

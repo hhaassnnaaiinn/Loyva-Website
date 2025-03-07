@@ -1,7 +1,7 @@
 ---
 title: "Loyva | Automotive"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Loyva | Automotive Digital Solutions"
+description: "Secure and seamless digital financing solutions for automotive dealerships, lenders, and financial institutions."
 draft: false
 
 pageHeader:

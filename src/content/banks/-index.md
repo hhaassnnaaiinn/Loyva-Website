@@ -1,7 +1,7 @@
 ---
 title: "Loyva | Banks"
-meta_title: ""
-description: "Empowering Banks with Secure Digital Vaulting Partnerships"
+meta_title: "Loyva | Trusted Digital Vaulting Solutions for Banks"
+description: "Loyva empowers banks with secure and innovative digital vaulting partnerships, ensuring trust and compliance."
 draft: false
 
 pageHeader:

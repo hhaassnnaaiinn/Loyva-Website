@@ -1,65 +1,65 @@
 ---
-title: "Loyva | Integration"
-meta_title: ""
-description: "this is meta description"
+title: "Loyva | Integrations"
+meta_title: "Loyva | Seamless Integrations for Enhanced Workflow"
+description: "Discover how Loyva seamlessly integrates with your favorite tools, enhancing automation, security, and efficiency for financial and business management."
 draft: false
 
 pageHeader:
   title: "Integrations"
-  subtitle: "Streamline HR processes and empower your team with our products. Effortlessly manage employee data, and more."
+  subtitle: "Connect Loyva with industry-leading platforms to automate workflows, enhance security, and streamline operations."
 
 # Integrations
 list:
   - logo: "/images/integration/1.png"
-    description: Import Unlimited LinkedIn contacts to Pipedrive with one click and save hours on manually copy-pasting work.
+    description: "Effortlessly import LinkedIn contacts to Pipedrive in one click, saving hours of manual data entry."
     button:
       enable: true
       label: "Install"
       link: "#"
   - logo: "/images/integration/2.png"
-    description: Easily integrate Behance with Fortify to provide better experience.
+    description: "Seamlessly integrate Behance with Fortify to improve collaboration and design workflow efficiency."
     button:
       enable: true
       label: "Install"
       link: "#" 
   - logo: "/images/integration/3.png"
-    description: Import Unlimited LinkedIn contacts to Pipedrive with one click and save hours on manually copy-pasting work.
+    description: "Automate CRM management by syncing LinkedIn contacts with Pipedrive for smarter sales tracking."
     button:
       enable: true
       label: "Install"
       link: "#"
   - logo: "/images/integration/4.png"
-    description: Easily integrate Behance with Fortify to provide better experience.
+    description: "Connect Behance with Fortify for seamless content sharing and enhanced design experience."
     button:
       enable: true
       label: "Install"
       link: "#"
   - logo: "/images/integration/5.png"
-    description: Import Unlimited LinkedIn contacts to Pipedrive with one click and save hours on manually copy-pasting work.
+    description: "Sync your LinkedIn contacts with Pipedrive instantly and eliminate repetitive manual entry."
     button:
       enable: true
       label: "Install"
       link: "#"
   - logo: "/images/integration/6.png"
-    description: Import Unlimited LinkedIn contacts to Pipedrive with one click and save hours on manually copy-pasting work.
+    description: "Optimize lead management by linking LinkedIn contacts directly to your CRM system."
     button:
       enable: true
       label: "Install"
       link: "#"
   - logo: "/images/integration/7.png"
-    description: Import Unlimited LinkedIn contacts to Pipedrive with one click and save hours on manually copy-pasting work.
+    description: "Enhance customer engagement by integrating LinkedIn contacts with your sales pipeline."
     button:
       enable: true
       label: "Install"
       link: "#"
   - logo: "/images/integration/8.png"
-    description: Import Unlimited LinkedIn contacts to Pipedrive with one click and save hours on manually copy-pasting work.
+    description: "Automate data import from LinkedIn to Pipedrive, ensuring accuracy and efficiency."
     button:
       enable: true
       label: "Install"
       link: "#"
   - logo: "/images/integration/3.png"
-    description: Import Unlimited LinkedIn contacts to Pipedrive with one click and save hours on manually copy-pasting work.
+    description: "Save time by syncing LinkedIn contacts with Pipedrive, eliminating the need for manual copying."
     button:
       enable: true
       label: "Install"

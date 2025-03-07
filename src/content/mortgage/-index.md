@@ -1,7 +1,7 @@
 ---
-title: "Loyva | Mortgage"
-meta_title: ""
-description: "this is meta description"
+title: "Loyva | Mortgage Solutions"
+meta_title: "Loyva | Secure & Streamlined Mortgage Solutions"
+description: "Simplify mortgage processes with Loyva’s intelligent solutions. Manage applications, automate approvals, and ensure compliance effortlessly."
 draft: false
 
 pageHeader:

@@ -1,7 +1,7 @@
 ---
 title: "Loyva | Company"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Loyva | Redefining Secure Financial Management"
+description: "Discover Loyva’s mission to revolutionize financial asset management with secure, compliant, and automated solutions. Learn more about our journey, values, and vision."
 draft: false
 
 hero:

@@ -1,7 +1,7 @@
 ---
 title: "Loyva | Equipment Leasing"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Loyva | Secure & Streamlined Equipment Leasing Solutions"
+description: "Simplify equipment leasing with Loyva’s secure, automated, and compliant solutions. Optimize lease management, streamline approvals, and ensure financial security."
 draft: false
 
 pageHeader:

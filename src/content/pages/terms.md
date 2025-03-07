@@ -1,7 +1,7 @@
 ---
-title: "Terms and Conditions"
-meta_title: ""
-description: "this is meta description"
+title: "Loyva Terms & Conditions"
+meta_title: "Loyva | Terms & Conditions – Know Your Rights & Responsibilities"
+description: "Review Loyva’s terms and conditions to understand your rights, responsibilities, and our commitment to providing a secure and transparent service."
 draft: false
 ---
 
