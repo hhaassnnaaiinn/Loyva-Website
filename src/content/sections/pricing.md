@@ -1,6 +1,6 @@
 ---
-title: "Loyva | Pricing Plan"
-subtitle: "Optimize HR processes and empower your workforce with our seamless solutions."
+title: "Pricing Plan"
+subtitle: "Secure, manage, and optimize your digital financial assets with Loyva’s advanced solutions."
 
 plans_labels:
   - "Monthly"
@@ -8,14 +8,14 @@ plans_labels:
 discount: "-30%"
 plans:
   - title: Essential
-    description: Designed for growing businesses with more advanced HR needs.
+    description: Designed for businesses looking to streamline digital asset management with essential tools.
     price_prefix: "$"
     features:
-      - Centralized employee database
-      - Clock-in/clock-out functionality
-      - Applicant tracking system (ATS)
-      - Learning management system (LMS)
-      - Performance management tools
+      - Secure digital asset storage
+      - eSignature functionality
+      - Digital document verification
+      - Compliance tracking system
+      - Basic analytics & reporting
     price:
       yearly:
         amount: 260
@@ -33,13 +33,13 @@ plans:
       text: Get Started
       link: "/contact"
   - title: Premium
-    description: Advanced features for established businesses seeking enhanced HR management.
+    description: Advanced security and automation features for businesses managing high-value digital assets.
     price_prefix: "$"
     features:
       - All Essential features
-      - Performance management tools
-      - Advanced reporting and analytics
-      - Custom workflows
+      - Advanced analytics & insights
+      - Automated workflows
+      - API access for integrations
       - Priority support
     price:
       yearly:
@@ -58,15 +58,15 @@ plans:
       text: Get Started
       link: "/contact"
   - title: Business
-    description: Comprehensive HR solution for enterprises with complex workforce needs.
+    description: Enterprise-grade solution for large organizations with complex security and compliance needs.
     price_prefix: "$"
     features:
       - All Premium features
-      - Multi-company management
-      - Advanced security controls
-      - API access
+      - Multi-organization asset management
+      - Enhanced security controls
+      - Blockchain-backed verification
       - Dedicated account manager
-      - Custom branding
+      - Custom branding & integrations
     price:
       yearly:
         amount: 580
@@ -81,4 +81,6 @@ plans:
       text: "🚀 Best Value"
     cta:
       enable: true
-      te
+      text: Get Started
+      link: "/contact"
+---
