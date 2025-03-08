@@ -2,6 +2,7 @@
 title: "Loyva Privacy Policy"
 meta_title: "Loyva | Privacy Policy – Your Data, Secure & Protected"
 description: "Learn how Loyva safeguards your data with industry-leading security and compliance standards. Read our privacy policy for full details."
+slug: "privacy-policy"
 draft: false
 ---
 

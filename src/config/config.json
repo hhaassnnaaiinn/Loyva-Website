@@ -1,7 +1,7 @@
 {
  "site": {
     "title": "Loyva | Secure, Compliant & Intelligent Digital Asset Management",
-    "base_url": "https://loyva.vercel.app",
+    "base_url": "https://loyva-website.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",

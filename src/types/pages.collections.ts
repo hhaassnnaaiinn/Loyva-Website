@@ -1,6 +1,18 @@
 import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
 
+const pagesCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
 export const homepage = defineCollection({
   loader: glob({
     pattern: "**/-*.{md,mdx}",
@@ -339,7 +351,9 @@ export const security = defineCollection({
   }),
 });
 
-
+export const collections = {
+  pages: pagesCollection,
+};
 
 
 export const blog = defineCollection({

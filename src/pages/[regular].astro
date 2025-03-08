@@ -1,45 +1,41 @@
 ---
 import Base from "@/layouts/Base.astro";
-import { getSinglePage } from "@/lib/contentParser.astro";
 import CallToAction from "@/partials/CallToAction.astro";
 import PageHeader from "@/partials/PageHeader.astro";
-import { render } from "astro:content";
 
-// get static paths for all pages
-export async function getStaticPaths() {
-  const COLLECTION_FOLDER = "pages";
+// Fetch the slug from Astro params
+const slug = Astro.params.regular;
+const apiURL = import.meta.env.API_URL;
 
-  const pages = await getSinglePage(COLLECTION_FOLDER);
+// Fetch the page dynamically via your custom API
+const response = await fetch(`${apiURL}/api/getPage?slug=${slug}`);
+let page = null;
 
-  return pages.map((page) => ({
-    params: { regular: page.id },
-    props: { page },
-  }));
+if (response.ok) {
+  page = await response.json();
+} else {
+  // If the page is not found, return a 404 response
+  return new Response("Page not found", {
+    status: 404,
+    headers: { "Content-Type": "text/plain" },
+  });
 }
 
-// Ensure Astro.props is awaited in a function
-const getPageData = async () => {
-  const { page } = Astro.props ?? {};
-  if (!page || !page.data) {
-    console.error("Page data is missing!", page);
-    throw new Error("Page not found or missing data.");
-  }
-  return { 
-    page, 
-    content: await render(page) 
-  };
-};
+// Destructure and extract the required page data
+const { title, meta_title, description, image } = page.data || {};
+const { html: contentHtml } = page.rendered || {};
 
-const { page, content } = await getPageData();
-const { title, meta_title, description, image } = page.data;
+// Check if title and contentHtml are present
+if (!title || !contentHtml) {
+  return new Response("Page data is incomplete", {
+    status: 404,
+    headers: { "Content-Type": "text/plain" },
+  });
+}
+
 ---
 
-<Base
-  title={title}
-  meta_title={meta_title}
-  description={description}
-  image={image}
->
+<Base title={title} meta_title={meta_title} description={description} image={image}>
   <section class="ph-spacing">
     <PageHeader title={title} />
   </section>
@@ -48,7 +44,8 @@ const { title, meta_title, description, image } = page.data;
       <div class="row justify-center">
         <div class="lg:col-10">
           <div class="content" data-aos="fade-up-sm" data-aos-delay="200">
-            <content.Content />
+            <!-- Using Astro's html directive to render raw HTML content -->
+            <div class="content" set:html={contentHtml} />
           </div>
         </div>
       </div>
