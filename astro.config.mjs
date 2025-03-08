@@ -5,6 +5,7 @@ import tailwind from "@astrojs/tailwind";
 import AutoImport from "astro-auto-import";
 import icon from "astro-icon";
 import { defineConfig } from "astro/config";
+import vercel from "@astrojs/vercel";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
@@ -15,6 +16,7 @@ export default defineConfig({
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "never" : "ignore",
   output: "server", // Enables API routes
+  adapter: vercel(),
   integrations: [
     react(),
     sitemap(),
