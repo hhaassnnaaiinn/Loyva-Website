@@ -7,7 +7,7 @@
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.svg",
     "logo_width": "160",
-    "logo_height": "35",
+    "logo_height": "45",
     "logo_text": "Loyva"
   },
 
@@ -30,7 +30,7 @@
   "navigation_button": {
     "enable": true,
     "label": "Book a Demo",
-    "link": "/"
+    "link": "/book-demo"
   },
 
   "metadata": {

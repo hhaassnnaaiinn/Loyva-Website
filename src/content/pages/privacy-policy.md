@@ -66,7 +66,5 @@ We may update this Privacy Policy periodically. Any changes will be posted on th
 #### Contact Information
 
 For any questions regarding this Privacy Policy, please contact:  
-Loyva, Inc.  
-2014 Shady Branch Drive  
-Kingwood, Texas 77339  
+Loyva, Inc.   
 Email: support@loyva.io

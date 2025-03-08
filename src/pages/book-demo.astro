@@ -22,7 +22,7 @@ const bookdemo = (
           <p set:html={bookdemo.hero.subtitle} />
         </div>
         <div class="mt-12">
-          <form action={config.params.contact_form_action} method="post">
+          <form id="bookDemoForm">
             <div class="form-control">
               <label class="form-label" for="fullName">Full Name</label>
               <input
@@ -32,7 +32,7 @@ const bookdemo = (
                 name="fullName"
                 placeholder="John Doe"
                 required
-              /><br />
+              />
             </div>
 
             <div class="form-control">
@@ -67,16 +67,63 @@ const bookdemo = (
                 rows="3"
                 name="message"
                 placeholder="Type your messages"
-                required></textarea>
+                required
+              ></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary font-normal py-4">
+            <button type="submit" class="btn btn-primary font-normal py-4" id="submitBtn">
               Send A Message
             </button>
+
+            <p id="formStatus" class="text-sm mt-3"></p>
           </form>
         </div>
       </div>
     </div>
   </section>
+
   <CallToAction hasBackground={true} />
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Select elements safely with type assertions
+      const form = document.getElementById("bookDemoForm") as HTMLFormElement | null;
+      const submitBtn = document.getElementById("submitBtn") as HTMLButtonElement | null;
+      const formStatus = document.getElementById("formStatus") as HTMLParagraphElement | null;
+
+      if (!form || !submitBtn || !formStatus) return;
+
+      // Handle form submission
+      form.addEventListener("submit", async (event: Event) => {
+        event.preventDefault();
+
+        formStatus.textContent = "Sending...";
+        submitBtn.disabled = true;
+
+        const formData = new FormData(form);
+        const jsonData = Object.fromEntries(formData.entries());
+
+        try {
+          const response = await fetch("/api/sendEmail", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(jsonData),
+          });
+
+          const result: { success: boolean; message: string } = await response.json();
+
+          if (response.ok) {
+            formStatus.textContent = "Message sent successfully!";
+            form.reset();
+          } else {
+            formStatus.textContent = result.message || "Error sending message.";
+          }
+        } catch (error) {
+          formStatus.textContent = "Something went wrong. Please try again.";
+        } finally {
+          submitBtn.disabled = false;
+        }
+      });
+    });
+  </script>
 </Base>

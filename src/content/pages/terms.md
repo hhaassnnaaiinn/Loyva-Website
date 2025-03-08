@@ -87,6 +87,4 @@ We may update these Terms periodically. Continued use of our services constitute
 
 For any questions regarding these Terms, please contact:<br>
 Loyva, Inc. <br>
-2014 Shady Branch Drive <br>
-Kingwood, Texas 77339 <br>
 Email: support@loyva.io
